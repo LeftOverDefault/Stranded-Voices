@@ -73,7 +73,7 @@ def GameScreen(player):
 		location_object_1, location_object_2 = misc_objects[location_objects[0]], {"name": None, "description": ""}
 	elif len(location_objects) == 2:
 		location_object_1, location_object_2 = misc_objects[location_objects[0]], misc_objects[location_objects[1]]
-	
+
 	if len(location_entities) == 0:
 		location_entity_1, location_entity_2 = {"name": None, "description": ""}, {"name": None, "description": ""}
 	elif len(location_entities) == 1:
