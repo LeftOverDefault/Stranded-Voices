@@ -16,6 +16,7 @@ def GameScreen(player):
 	location_objects = current_world[current_location]["objects"]
 	location_entities = current_world[current_location]["entities"]
 
+	# TODO: Make this shit more efficient.
 	try:
 		north_location = current_world[location_directions["north"]]
 	except:
