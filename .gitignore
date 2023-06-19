@@ -1,7 +1,6 @@
 /.vscode
 /border_chars.txt
 /src/__pycache__
-
 /src/classes/__pycache__
 /src/entities/__pycache__
 /src/objects/__pycache__
