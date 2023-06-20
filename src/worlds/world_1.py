@@ -59,8 +59,8 @@ world_1 = {
 	},
 	"recreation_room": {
 		"name": "Rec Room",
-		"description": None,
-		"examination": None,
+		"description": "The vibrant space, once a hub of activity, now crowded with silence.\lThe room is bathed in light, casting dynamic patterns on the walls.\lThe air carries the stench of long expired, coffee.\lAn assortment of retro arcade machines run along the walls.",
+		"examination": "An old, broken-down holographic table stands at the center.\lA small bar sits at the corner of the room.",
 		"directions": {
 			"north": "shield_generator_chamber",
 			"north_east": None,
@@ -130,19 +130,38 @@ world_1 = {
 			"up": None,
 			"down": None
 		},
-		"objects": ["object", "object_2"],
-		"entities": ["ellie", "jason"]
+		"objects": [],
+		"entities": []
 	},
 	"droid_hold_l": {
 		"name": "Droid Hold (L)",
-		"description": None,
-		"examination": None,
+		"description": "You find yourself surrounded by an assortment of mechanical wonders.\lThis place serves as a maintenance/storage room for the droid units.\lThe room is bathed in a dim, bluish light.\lRows of droid compartments, marked with id-codes, crowd the room.",
+		"examination": "Transparent casings showcase the complex inner workings of the droids.\lTools and spare parts lie in disarray on the workbench.",
 		"directions": {
 			"north": None,
 			"north_east": None,
 			"north_west": None,
 			"east": None,
 			"south": "crew_quarters_l",
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"escape_pods_l": {
+		"name": "Escape Pods (L)",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": "crew_quarters_l",
+			"south": None,
 			"south_east": None,
 			"south_west": None,
 			"west": None,
@@ -181,25 +200,6 @@ world_1 = {
 			"north_west": None,
 			"east": None,
 			"south": "crew_quarters_r",
-			"south_east": None,
-			"south_west": None,
-			"west": None,
-			"up": None,
-			"down": None
-		},
-		"objects": [],
-		"entities": []
-	},
-	"escape_pods_l": {
-		"name": "Escape Pods (L)",
-		"description": None,
-		"examination": None,
-		"directions": {
-			"north": None,
-			"north_east": None,
-			"north_west": None,
-			"east": "crew_quarters_l",
-			"south": None,
 			"south_east": None,
 			"south_west": None,
 			"west": None,
@@ -636,7 +636,7 @@ world_1 = {
 			"north_east": None,
 			"north_west": None,
 			"east": "main_bridge",
-			"south": "labratory",
+			"south": "laboratory",
 			"south_east": None,
 			"south_west": None,
 			"west": None,
@@ -703,8 +703,8 @@ world_1 = {
 		"objects": [],
 		"entities": []
 	},
-	"labratory": {
-		"name": "Labratory",
+	"laboratory": {
+		"name": "Laboratory",
 		"description": None,
 		"examination": None,
 		"directions": {
@@ -734,7 +734,7 @@ world_1 = {
 			"south": "medbay",
 			"south_east": "brig",
 			"south_west": "weapons_storage",
-			"west": "labratory",
+			"west": "laboratory",
 			"up": None,
 			"down": None
 		},
