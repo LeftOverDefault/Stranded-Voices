@@ -1,9 +1,11 @@
 import os
 import sys
 
+from src.entities.entities import entities
 from src.scenes.game_screen import GameScreen
 from src.scripts.check_player_status import CheckPlayerStatus
-from src.scripts.error import DirectionError, LocationError, PromptError
+from src.scripts.error import (DirectionError, InteractionError, LocationError,
+                               PromptError)
 from src.scripts.movement_handler import Move
 from src.worlds.world_1 import world_1, world_name
 
@@ -29,7 +31,7 @@ class Player:
 			user_input = input("🮥🮥🮥  ")
 			self.previous_input = user_input
 			user_input = user_input.lower()
-			prompts = ["go", "use", "sneak", "exit"]
+			prompts = ["go", "use", "sneak", "exit", "interact"]
 			try:
 				command, args = user_input.split(" ")
 			except:
@@ -57,6 +59,20 @@ class Player:
 					self.previous_error = DirectionError(self, args)
 					GameScreen(self)
 					self.Prompt()
+
+
+
+			elif command == "interact":
+				if args != None and entities[args]["met"] == False:
+					pass
+				elif args == None and entities[args]["met"] == True:
+					pass
+				else:
+					self.previous_error = InteractionError(self, args)
+					GameScreen(self)
+					self.Prompt()
+					
+
 			elif command == "exit":
 				sys.exit()
 		else:

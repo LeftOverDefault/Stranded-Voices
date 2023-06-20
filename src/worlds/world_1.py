@@ -74,7 +74,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
-		"entities": []
+		"entities": ["ellie"]
 	},
 	"hydroponics_room": {
 		"name": "Hydroponics Room",

@@ -1,10 +1,16 @@
 entities = {
 	"ellie": {
 		"name": "Ellie",
-		"description": "Ellie description"
+		"description": "Ellie description",
+		"met": False,
+		"dialogue": [],
+		"art": ""
 	},
 	"jason": {
 		"name": "Jason",
-		"description": "Jason description"
+		"description": "Jason description",
+		"met": False,
+		"dialogue": [],
+		"art": ""
 	}
 }
