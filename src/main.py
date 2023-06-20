@@ -27,6 +27,5 @@ class Main:
 
 	def run(self) -> None:
 		print(f"{WHITE}{BLACK_BG}")
-		os.system("clear")
 		GameScreen(self.player)
 		self.player.Prompt()
