@@ -29,7 +29,7 @@ class Player:
 	def Prompt(self):
 		CheckPlayerStatus(self)
 		if self.alive != False:
-			user_input = input("🮥🮥🮥  ")
+			user_input = input("🮥🮥🮥 ")
 			self.previous_input = user_input
 			user_input = user_input.lower()
 			prompts = ["go", "use", "sneak", "exit", "interact"]
@@ -86,7 +86,7 @@ class Player:
 	def InteractPrompt(self):
 		CheckPlayerStatus(self)
 		if self.alive != False:
-			user_input = input("🮥🮥🮥  ")
+			user_input = input("🮥🮥🮥 ")
 			user_input = user_input.lower()
 			self.previous_input = user_input
 			prompts = ["leave", "exit"]
