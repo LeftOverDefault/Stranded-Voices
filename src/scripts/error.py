@@ -15,3 +15,6 @@ def DirectionError(player, direction):
 def PromptError(player, prompt):
 	error = f"You can't \"{prompt}\"."
 	return error
+
+def InteractionError(player, object):
+	pass

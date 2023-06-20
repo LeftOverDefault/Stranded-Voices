@@ -2,7 +2,7 @@ world_name = "defiance"
 world_1 = {
 	"shield_generator_chamber": {
 		"name": "Shield Generator Chamber",
-		"description": "You find yourself in the Shield Generator Chamber, a dimly lit room filled with an array of machinery and pulsating energy conduits.\lThe air crackles with electrical energy, and the faint hum of the shield generator permeates the space.\lThick cables snake along the walls, connecting various panels and control consoles.\lThe room's metallic floor is etched with scorch marks, evidence of the immense power coursing through the system.",
+		"description": "You step into a dimly lit chamber pulsating with a rhythmic hum.\lCables snake along the walls, connecting to the generator's core.\lThe air crackles with static, as a faint glow illuminates the room.\lControl panels displaying complex energy readings are scattered about.",
 		"examination": "Intricate circuitry, blinking lights on control panels surround you.\lA powerful blue glow is emanating from the central generator.",
 		"directions": {
 			"north": None,
@@ -21,8 +21,8 @@ world_1 = {
 	},
 	"shield_deployer_chamber_l": {
 		"name": "Shield Deployer Chamber (L)",
-		"description": "Stepping into the Shield Deployment Chamber, you're greeted by a sight of organized chaos.\lThis compartment houses an arsenal of advanced shield projectors, neatly arranged on shelves and racks that line the walls.\lEach deployer unit resembles a sleek, metallic orb, emitting a subtle hum as it awaits activation.\lThe air carries a faint scent of ozone, a side effect of the shielding technology.",
-		"examination": "Examining one of the deployers up close reveals intricate patterns etched onto its surface, reminiscent of circuitry and encryption codes.\lSmall status indicators flicker with a soft green glow, providing information about its operational readiness.\lThe deployers are connected to a central control console by a tangle of cables, allowing for precise adjustments and coordination during shield deployment.",
+		"description": "Rows of sleek, futuristic devices are suspended in mid-air.\lReady to project protective energy barriers at a moment's notice.\lDeployers hover silently filling the room with a low hum of energy.\lThe atmosphere is negatively charged, and incredibly dangerous.",
+		"examination": "Each deployer is adorned with intricate circuitry.\lSmall vents emit a gentle breeze, carrying a faint scent of ozone.",
 		"directions": {
 			"north": None,
 			"north_east": None,
@@ -40,8 +40,8 @@ world_1 = {
 	},
 	"shield_deployer_chamber_r": {
 		"name": "Shield Deployer Chamber (R)",
-		"description": "Stepping into the Shield Deployment Chamber, you're greeted by a sight of organized chaos.\lThis compartment houses an arsenal of advanced shield projectors, neatly arranged on shelves and racks that line the walls.\lEach deployer unit resembles a sleek, metallic orb, only some of which are emitting a subtle hum as they await activation.\lThe air carries a faint scent of ozone, a side effect of the shielding technology.",
-		"examination": "Examining one of the deployers up close reveals intricate patterns etched onto its surface, reminiscent of circuitry and encryption codes.\lSmall status indicators are faintly visible past the layer of dust covering them, providing information about its operational readiness.\lThe deployers are connected to a central control console by a tangle of cables, which used to allow for precise adjustments and coordination during shield deployment, before these ones were destroyed.",
+		"description": "",
+		"examination": "",
 		"directions": {
 			"north": None,
 			"north_east": None,
