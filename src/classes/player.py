@@ -2,7 +2,7 @@ import os
 import sys
 
 from src.entities.entities import entities
-from src.scenes.game_screen import GameScreen
+from src.scenes.game_screen import GameScreen, InteractScreen
 from src.scripts.check_player_status import CheckPlayerStatus
 from src.scripts.error import (DirectionError, InteractionError, LocationError,
                                PromptError)
@@ -23,6 +23,7 @@ class Player:
 		self.boots_points = 0
 		self.previous_input = ""
 		self.previous_error = ""
+		self.last_interaction = ""
 
 
 	def Prompt(self):
@@ -64,19 +65,41 @@ class Player:
 
 			elif command == "interact":
 				if args != None and entities[args]["met"] == False:
-					pass
+					InteractScreen(self, args)
+					self.last_interaction = args
+					self.InteractPrompt()
 				elif args == None and entities[args]["met"] == True:
 					pass
 				else:
 					self.previous_error = InteractionError(self, args)
-					GameScreen(self)
-					self.Prompt()
+					InteractScreen(self, args)
+					self.last_interaction = args
+					self.InteractPrompt()
 					
 
 			elif command == "exit":
 				sys.exit()
 		else:
 			self.DeathSequence()
+	
+
+	def InteractPrompt(self):
+		CheckPlayerStatus(self)
+		if self.alive != False:
+			user_input = input("🮥🮥🮥  ")
+			user_input = user_input.lower()
+			self.previous_input = user_input
+			prompts = ["leave", "exit"]
+			while user_input not in prompts:
+				self.previous_error = PromptError(self, user_input)
+				InteractScreen(self, self.last_interaction)
+				self.InteractPrompt()
+			if user_input == "leave":
+				self.previous_error = "You left"
+				GameScreen(self)
+				self.Prompt()
+			elif user_input == "exit":
+				sys.exit()
 
 
 	def DeathSequence(self):
