@@ -3,7 +3,7 @@ world_1 = {
 	"shield_generator_chamber": {
 		"name": "Shield Generator Chamber",
 		"description": "You find yourself in the Shield Generator Chamber, a dimly lit room filled with an array of machinery and pulsating energy conduits.\lThe air crackles with electrical energy, and the faint hum of the shield generator permeates the space.\lThick cables snake along the walls, connecting various panels and control consoles.\lThe room's metallic floor is etched with scorch marks, evidence of the immense power coursing through the system.",
-		"examination": "Intricate circuitry, blinking lights on control panels surrounf you.\lA powerful blue glow is emanating from the central generator.",
+		"examination": "Intricate circuitry, blinking lights on control panels surround you.\lA powerful blue glow is emanating from the central generator.",
 		"directions": {
 			"north": None,
 			"north_east": None,
@@ -389,10 +389,10 @@ world_1 = {
 			"north_east": None,
 			"north_west": None,
 			"east": "turret_control_r",
-			"south": "engine_roomr_r",
+			"south": "engine_room_r",
 			"south_east": None,
 			"south_west": None,
-			"west": "seecondary_bridge",
+			"west": "secondary_bridge",
 			"up": None,
 			"down": None
 		},
