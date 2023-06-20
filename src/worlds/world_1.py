@@ -40,8 +40,8 @@ world_1 = {
 	},
 	"shield_deployer_chamber_r": {
 		"name": "Shield Deployer Chamber (R)",
-		"description": "",
-		"examination": "",
+		"description": "The air grows thick with the acrid smell of burnt circuits.\lDim emergency lights reveal multiple rows of dormant shield deployers.\lLayers of grime coat the floor, from years of neglect and inactivity.\lWires hang like tattered cobwebs, waiting to be repaired.",
+		"examination": "Amidst the debris, there is a flickering holographic display.\lThe screen is still trying to project vital shield status information.",
 		"directions": {
 			"north": None,
 			"north_east": None,
@@ -78,8 +78,8 @@ world_1 = {
 	},
 	"hydroponics_room": {
 		"name": "Hydroponics Room",
-		"description": None,
-		"examination": None,
+		"description": "You are enveloped in a warm and humid atmosphere.\lRows of wilted plants stand as a testament to neglect over the years.\lDim lights flicker endlessly, casting eerie shadows across the room.\lThe scent of decayed vegetation fills the air.",
+		"examination": "Amidst the desolation, a lone plant, and a symbol of resilience.\lThe soil is dry and cool, hinting at the ship's fading life support.",
 		"directions": {
 			"north": "recreation_room",
 			"north_east": None,
@@ -97,8 +97,8 @@ world_1 = {
 	},
 	"storage_room": {
 		"name": "Storage Room",
-		"description": None,
-		"examination": None,
+		"description": "Towering shelves lined with disheveled crates crowd the room.\lThe air hangs heavy with the scent of rust and forgotten treasures.\lTools scattered around the floor suggest towards past salvage attempts.\lPiles of broken equipment and spare parts create a chaotic landscape.",
+		"examination": "There is a crate labeled \"Emergency Rations\", with its seal torn.\lA clutter of faded notes are pinned to the shelves, all illegible.",
 		"directions": {
 			"north": "hydroponics_room",
 			"north_east": None,
@@ -116,7 +116,7 @@ world_1 = {
 	},
 	"crew_quarters_l": {
 		"name": "Crew Quarters (L)",
-		"description": "You find yourself in a room that serves as a home for the ship's crew.\lThe air is tinged with a mix of stale air and hints of metallic oils.\lStacked against the walls are a few personal storage compartments.\lThe sound of distant conversations still haunt the air.",
+		"description": "The cluttered room once served as a home for the ship's crew.\lThe air is tinged with a mix of stale air and hints of metallic oils.\lStacked against the walls are a few personal storage compartments.\lThe sound of distant conversations still haunt the air.",
 		"examination": "Personal belongings are scattered about the floor.\lTattered posters and photographs adorn the walls.",
 		"directions": {
 			"north": "droid_hold_l",
@@ -955,3 +955,8 @@ world_1 = {
 		"entities": []
 	},
 """
+
+
+
+
+
