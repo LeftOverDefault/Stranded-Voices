@@ -914,7 +914,7 @@ world_1 = {
 	},
 	"computer_core_chamber": {
 		"name": "Computer Core Chamber",
-		"description": None,
+		"description": "The Computer Core Chamber houses the CPU of the ship.\lDimly lit consoles and rows of servers fill the room.\lWires crisscross the floor, connecting the intricate machinery.\lFaint humming and blinking lights indicate the system's functionality.",
 		"examination": None,
 		"directions": {
 			"north": None,
@@ -933,7 +933,7 @@ world_1 = {
 	},
 	"shield_generator_maintenance_room": {
 		"name": "Shield Generator Maintenance",
-		"description": None,
+		"description": "The room is a spacious area for maintaining the ship's force field.\lThe walls are lined with control panels and diagnostic tools.\lA large generator stands at the center, emitting a gentle hum.\lTechnicians in protective suits occasionally work on the equipment.",
 		"examination": None,
 		"directions": {
 			"north": None,
@@ -952,7 +952,7 @@ world_1 = {
 	},
 	"miscellaneous_storage_room": {
 		"name": "Miscellaneous Storage Room",
-		"description": None,
+		"description": "The room serves as a broad space for various supplies and equipment.\lMetal shelves line the walls, holding an array of labeled containers.\lDust-covered boxes and forgotten tools are scattered around.\lThe room is chaotic, with each item in a random place on the shelf.",
 		"examination": None,
 		"directions": {
 			"north": None,
@@ -971,7 +971,7 @@ world_1 = {
 	},
 	"landing_gear_maintenance_room": {
 		"name": "Landing Gear Maintenance Room",
-		"description": None,
+		"description": "The room is where the ship's landing gear is repaired and maintained.\lTools and spare parts are chaotically arranged on workbenches.\lThe Hydraulic systems seem to need adjusting.\lThe sound of clanking metal and hissing air fills the air.",
 		"examination": None,
 		"directions": {
 			"north": "shield_generator_maintenance_room",
@@ -989,8 +989,8 @@ world_1 = {
 		"entities": []
 	},
 	"repulser_lift_maintenance_room": {
-		"name": "Repulser Lift Maintenance Bay",
-		"description": None,
+		"name": "Repulser Lift Maintenance",
+		"description": "The entire Bay is dedicated to the upkeep of the repulser lift system.\lHeavy machinery and maintenance platforms dominate the space.\lSome of the repulsers are in dire need of repair.\lThe room echoes with the whirring of engines and metallic clattering.",
 		"examination": None,
 		"directions": {
 			"north": "landing_gear_maintenance_room",
@@ -1009,7 +1009,7 @@ world_1 = {
 	},
 	"cargo_bay_l_1": {
 		"name": "Cargo Bay (L) [1]",
-		"description": None,
+		"description": "The left Cargo Bay is a vast storage area for the ship's cargo.\lStacked crates and containers create a maze-like arrangement.\lThe air is filled with a faint scent of metal and plastic.\lLoading docks and robotic arms are positioned along the walls.",
 		"examination": None,
 		"directions": {
 			"north": "cargo_bay_l_2",
@@ -1028,7 +1028,7 @@ world_1 = {
 	},
 	"cargo_bay_l_2": {
 		"name": "Cargo Bay (L) [2]",
-		"description": None,
+		"description": "The second left Cargo Bay is an extension of the left cargo storage.\lIt shares the same chaotic organisation as the previous bay.\lThis room contains extra shelving units and storage areas.\lThe room is illuminated by bright overhead lights.",
 		"examination": None,
 		"directions": {
 			"north": None,
@@ -1047,7 +1047,7 @@ world_1 = {
 	},
 	"cargo_bay_r_1": {
 		"name": "Cargo Bay (R) [1]",
-		"description": None,
+		"description": "The right Cargo Bay mirrors its counterpart on the ship's left side.\lIt is filled with stacked cargo containers awaiting transportation.\lConveyor belts and automated systems facilitate the movement of goods.\lThe flicker of warning lights creates urgency in the atmosphere.",
 		"examination": None,
 		"directions": {
 			"north": "cargo_bay_r_2",
@@ -1066,7 +1066,7 @@ world_1 = {
 	},
 	"cargo_bay_r_2": {
 		"name": "Cargo Bay (R) [2]",
-		"description": None,
+		"description": "The right secondary Cargo Bay is an annex to it's counterpart.\lIt continues the pattern of disorder, housing additional supplies.\lThe room is well-lit, casting tall shadows on the messy floor.\lThe bright light makes navigation through the maze-like stacks easier.",
 		"examination": None,
 		"directions": {
 			"north": "miscellaneous_storage_room",
@@ -1085,7 +1085,7 @@ world_1 = {
 	},
 	"dry_storage_room": {
 		"name": "Dry Storage Room",
-		"description": None,
+		"description": "The room is a secure area for storing non-perishable provisions.\lShelves filled with sealed containers and vacuum-sealed bags lay still.\lThe air is dry, preserving the long shelf life of the stored goods.\lA faint aroma of preserved food lingers in the room.",
 		"examination": None,
 		"directions": {
 			"north": "cargo_bay_l_1",
@@ -1104,7 +1104,7 @@ world_1 = {
 	},
 	"cold_storage_room": {
 		"name": "Cold Storage Room",
-		"description": None,
+		"description": "The room is a frigid chamber designed to preserve perishable items.\lShelves hold containers of frozen provisions and scientific samples.\lThe frost filled air accentuates the room's purpose.\lSoft white lights cast an ethereal glow on the icy surfaces.",
 		"examination": None,
 		"directions": {
 			"north": "cargo_bay_r_1",
@@ -1123,7 +1123,7 @@ world_1 = {
 	},
 	"spacecraft_storage_room_1": {
 		"name": "Spacecraft Storage [1]",
-		"description": None,
+		"description": "The Spacecraft Storage chamber houses the smaller space vehicles.\lThe room exudes an atmosphere of controlled chaos.\lSpacecrafts of various sizes sit neatly arranged in designated spaces.\lThe grandeur room's scent hints towards past interstellar explorations.",
 		"examination": None,
 		"directions": {
 			"north": "spacecraft_storage_room_2",
@@ -1142,7 +1142,7 @@ world_1 = {
 	},
 	"spacecraft_storage_room_2": {
 		"name": "Spacecraft Storage [2]",
-		"description": None,
+		"description": "The primary storage extension accommodates additional space vehicles.\lThe room is arranged in a way that maximizes the available space.\lDim lighting highlights the formidable forms of the dormant ships.\lThe room holds an anticipation for future interstellar ventures.",
 		"examination": None,
 		"directions": {
 			"north": None,
@@ -1161,7 +1161,7 @@ world_1 = {
 	},
 	"airlock_chamber": {
 		"name": "Airlock Chamber",
-		"description": None,
+		"description": "The controlled environment of the ship links with the void of space.\lSealed doors and pressure systems ensure the integrity of the vessel.\lThe chamber features a decontamination area, with ultraviolet lights.\lDisinfectant sprays sit there, ready to cleanse any potential hazards.",
 		"examination": None,
 		"directions": {
 			"north": None,
@@ -1180,7 +1180,7 @@ world_1 = {
 	},
 	"vehicle_storage_bay": {
 		"name": "Vehicle Storage Bay",
-		"description": None,
+		"description": "The bay is a small room to house the ship's ground-based vehicles.\lA large seal, placed on the wall to prevent space from consuming you.\lTools and parts are meticulously hung in disarray along the walls.\lThe air carries a faint scent of engine oil, polluting the room.",
 		"examination": None,
 		"directions": {
 			"north": None,
@@ -1199,7 +1199,7 @@ world_1 = {
 	},
 	"engine_mechanics_room_l": {
 		"name": "Engine Mechanics Room (L)",
-		"description": None,
+		"description": "The room houses the machinery that propels the ship through space.\lThe room hums with quiet energy, housing a network of pipes and valves.\lSoft lighting illuminates the mechanical wonders.\lThe room is scarred from the immense power held in the engines.",
 		"examination": None,
 		"directions": {
 			"north": None,
@@ -1218,7 +1218,7 @@ world_1 = {
 	},
 	"engine_mechanics_room_r": {
 		"name": "Engine Mechanics Room (R)",
-		"description": None,
+		"description": "The room houses the machinery responsible for the ship's propulsion.\lThe room is filled with intricate gauges and humming conduits.\lIlluminated consoles display critical engine diagnostics and warnings.\lThe walls reverberate with the vibrations of the ship's engines.",
 		"examination": None,
 		"directions": {
 			"north": None,
@@ -1237,7 +1237,7 @@ world_1 = {
 	},
 	"hyperdrive_control_room": {
 		"name": "Hyperdrive Control Room",
-		"description": None,
+		"description": "The room serves as the nerve center for the ship's propulsion system.\lA complex array of controls and monitors are meticulously arranged.\lSoft blue lighting bathes the room in a calming glow.\lEach button press brings the ship closer to traversing space.",
 		"examination": None,
 		"directions": {
 			"north": "spacecraft_storage_room_1",
@@ -1256,7 +1256,7 @@ world_1 = {
 	},
 	"secondary_power_core_chamber": {
 		"name": "Secondary Power Core Chamber",
-		"description": None,
+		"description": "The chamber houses a backup energy source incase the primary one fails.\lThe secondary power core augments the ship's primary power systems.\lWithin this chamber, a towering generator hums with contained power.\lThe rhythmic pulsation of energy creates an almost palpable presence.",
 		"examination": None,
 		"directions": {
 			"north": "engine_mechanics_room_r",
@@ -1275,7 +1275,7 @@ world_1 = {
 	},
 	"repulser_lift_l": {
 		"name": "Repulser Lift (L)",
-		"description": None,
+		"description": "The lift is a vertical transport system for moving cargo around.\lA low hum fills the air, accompanied by a gentle breeze.\lThe lift's interior is spacious, terminals indicate it's current level.\lThe lift vibrates as it moves through the ship's structural framework.",
 		"examination": None,
 		"directions": {
 			"north": None,
@@ -1294,7 +1294,7 @@ world_1 = {
 	},
 	"repulser_lift_r": {
 		"name": "Repulser Lift R",
-		"description": None,
+		"description": "The lift provides efficient vertical transportation within the ship.\lMetal can be heard scraping the walls as pistons move about.\lThe lift filled with broken control panels displaying the it's status.\lThe lift once connected the various realms of the spacecraft.",
 		"examination": None,
 		"directions": {
 			"north": None,
