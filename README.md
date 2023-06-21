@@ -8,7 +8,7 @@ Stranded Voices is a space-themed game designed to immerse users in a text-based
 
 
 ## Story
-Onboard the ship Defiance, a crew of diverse individuals embarked on a mission to reach the planet known as Xeon-9VN6. Among them were Ethan Mitchell, the skilled mechanic, and Dr. Olivia Reynolds, a brilliant biologist. However, their journey faced multiple challenges, starting with the ship enduring asteroid showers that caused irreparable damage, rendering the mission impossible.
+Onboard the ship Defiance, a crew of diverse individuals embarked on a mission to reach the planet known as Xeon-9VN6. Among them were Ethan Mitchell, the ship's head mechanic, and Dr. Olivia Reynolds, a very intelligent biologist. However, their journey faced multiple challenges, starting with the ship enduring asteroid showers that caused irreparable damage, rendering the mission impossible.
 
 During the first asteroid shower, the ship's electrical systems were severely affected. Tragically, two crew members, Biologist Dr. Olivia Reynolds and Mechanic Ethan Mitchell, experienced an electrical fault in their stasis pods. They were abruptly awakened fifty-three years and four months earlier than planned. Desperate to re-enter stasis, Ethan attempted to fix the pods but to no avail. Their only hope was to remove the logic boards from another pair of stasis pods. However, ship logs revealed that no logic boards had been tampered with.
 
