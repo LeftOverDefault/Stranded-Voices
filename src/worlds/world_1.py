@@ -380,7 +380,7 @@ world_1 = {
 		"objects": [],
 		"entities": []
 	},
-	"fueling_bar_r": {
+	"fueling_bay_r": {
 		"name": "Fueling Bay (R)",
 		"description": None,
 		"examination": None,
@@ -932,7 +932,7 @@ world_1 = {
 		"entities": []
 	},
 	"shield_generator_maintenance_room": {
-		"name": "Shield Generator Maintenance Room",
+		"name": "Shield Generator Maintenance",
 		"description": None,
 		"examination": None,
 		"directions": {
@@ -989,7 +989,7 @@ world_1 = {
 		"entities": []
 	},
 	"repulser_lift_maintenance_room": {
-		"name": "Repulser Lift Maintenance Room",
+		"name": "Repulser Lift Maintenance Bay",
 		"description": None,
 		"examination": None,
 		"directions": {
@@ -1122,7 +1122,7 @@ world_1 = {
 		"entities": []
 	},
 	"spacecraft_storage_room_1": {
-		"name": "Spacecraft Storage Room [1]",
+		"name": "Spacecraft Storage [1]",
 		"description": None,
 		"examination": None,
 		"directions": {
@@ -1141,7 +1141,7 @@ world_1 = {
 		"entities": []
 	},
 	"spacecraft_storage_room_2": {
-		"name": "Spacecraft Storage Room [2]",
+		"name": "Spacecraft Storage [2]",
 		"description": None,
 		"examination": None,
 		"directions": {
