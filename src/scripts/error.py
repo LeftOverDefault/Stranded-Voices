@@ -19,3 +19,7 @@ def PromptError(player, prompt):
 def InteractionError(player):
 	error = f"You cannot interact with \"{player.last_interaction}\"."
 	return error
+
+def DialogueError(player):
+	error = f"You have to choose a way to respond to {player.last_interaction}."
+	return error

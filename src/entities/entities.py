@@ -3,6 +3,7 @@ entities = {
 		"name": "Ellie",
 		"description": "Ellie description",
 		"met": False,
+        "type": "regular",
 		"dialogue": {}
 	},
 	"jason": {
