@@ -154,7 +154,7 @@ world_1 = {
 	},
 	"escape_pods_l": {
 		"name": "Escape Pods (L)",
-		"description": None,
+		"description": "Rows of pods lie dormant along the westward wall.\lThe cold metallic doors bear dents from heavy maintenance tools.\lThe pods are all inoperable, as all the circuitry is destroyed.\lEmergency lights bathe the room in an unsteady red glow.",
 		"examination": None,
 		"directions": {
 			"north": None,
@@ -230,7 +230,7 @@ world_1 = {
 	},
 	"mess_hall": {
 		"name": "Mess Hall",
-		"description": None,
+		"description": "The room is filled with silence, broken by the drip of leaking pipes.\lTables and chairs lie upturned, remnants of the ship's violent descent.\lStale air hangs heavy, carrying the faint scent of spoiled food.\lClouded windows offer a glimpse into the desolate expanse beyond.",
 		"examination": None,
 		"directions": {
 			"north": "crew_quarters_l",
