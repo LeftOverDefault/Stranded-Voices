@@ -2,10 +2,13 @@
 
 ![Banner](assets/banner.png)
 
+---
+
 ## Description
 
 Stranded Voices is a space-themed game designed to immerse users in a text-based futuristic dystopian universe. It combines elements of cybernetics, advanced technology and detailed lore to create an immersive experience.
 
+---
 
 ## Story
 >Onboard the ship Defiance, a crew of diverse individuals embarked on a mission to reach the planet known as Xeon-9VN6. Among them were Ethan Mitchells, the ship's head mechanic, and Dr. Olivia Reynolds, a very intelligent biologist. However, their journey faced multiple challenges, starting with the ship enduring asteroid showers that caused irreparable damage, rendering the mission impossible.
@@ -19,6 +22,8 @@ Stranded Voices is a space-themed game designed to immerse users in a text-based
 >Despite the immense challenges they faced, Mitchells and Dr. Reynolds' resourcefulness and expertise were critical for the survival of the remaining crew members. Their unwavering determination to adapt and overcome these obstacles became a beacon of hope in the face of unimaginable adversity. Together, they sought to find a way to navigate the treacherous journey and save the remaining lives aboard the Defiance.
 >
 >After the grueling passage of twenty-five years, your stasis pod finally awakens you from the slumber of deep space. As the sole surviving officer aboard the ship, your primary responsibility is to pilot the vessel and eradicate the insidious parasitic infestation that plagues its corridors. Your destination is now within reach, and as you prepare to land on the new planet, a weighty task lies ahead: awakening the remaining crew from their long hibernation. Together, you must forge a new existence on this unfamiliar world, embarking on a journey of resilience and adaptation as you strive to build a life amidst the uncharted horizons of your new home.
+
+---
 
 ## Features
 
@@ -46,11 +51,15 @@ Note that each command can be typed into the input bar at the bottom of the scre
 5. Customize your character's cybernetic enhancements and abilities.
 6. Uncover the secrets of the dystopian future and make choices that shape the narrative.
 
+---
+
 ## Screenshots
 
 ![Screenshot 1](assets/screenshot_1.png)
 ![Screenshot 2](assets/screenshot_2.png)
 ![Screenshot 3](assets/screenshot_3.png)
+
+---
 
 ## Contributing
 
