@@ -16,5 +16,6 @@ def PromptError(player, prompt):
 	error = f"You can't \"{prompt}\"."
 	return error
 
-def InteractionError(player, object):
-	pass
+def InteractionError(player):
+	error = f"You cannot interact with \"{player.last_interaction}\"."
+	return error

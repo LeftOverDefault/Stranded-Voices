@@ -4,9 +4,9 @@ import sys
 from src.entities.entities import entities
 from src.scenes.game_screen import GameScreen, InteractScreen
 from src.scripts.check_player_status import CheckPlayerStatus
-from src.scripts.error import (DirectionError, InteractionError, LocationError,
-                               PromptError)
+from src.scripts.error import DirectionError, InteractionError, LocationError, PromptError
 from src.scripts.movement_handler import Move
+from src.scripts.npc_dialogue_handler import DialogueHandler
 from src.worlds.world_1 import world_1, world_name
 
 
@@ -24,6 +24,7 @@ class Player:
 		self.previous_input = ""
 		self.previous_error = ""
 		self.last_interaction = ""
+		self.dialogue_index = "0"
 
 
 	def Prompt(self):
@@ -64,18 +65,16 @@ class Player:
 
 
 			elif command == "interact":
-				if args != None and entities[args]["met"] == False:
-					InteractScreen(self, args)
+				if args != None:
+					InteractScreen(self)
 					self.last_interaction = args
 					self.InteractPrompt()
-				elif args == None and entities[args]["met"] == True:
-					pass
 				else:
-					self.previous_error = InteractionError(self, args)
-					InteractScreen(self, args)
+					self.previous_error = InteractionError(self)
+					InteractScreen(self)
 					self.last_interaction = args
 					self.InteractPrompt()
-					
+
 
 			elif command == "exit":
 				sys.exit()
@@ -86,20 +85,11 @@ class Player:
 	def InteractPrompt(self):
 		CheckPlayerStatus(self)
 		if self.alive != False:
-			user_input = input("🮥🮥🮥 ")
-			user_input = user_input.lower()
-			self.previous_input = user_input
-			prompts = ["leave", "exit"]
-			while user_input not in prompts:
-				self.previous_error = PromptError(self, user_input)
-				InteractScreen(self, self.last_interaction)
-				self.InteractPrompt()
-			if user_input == "leave":
-				self.previous_error = "You left"
+			while self.last_interaction not in entities.keys():
+				self.previous_error = InteractionError(self)
 				GameScreen(self)
 				self.Prompt()
-			elif user_input == "exit":
-				sys.exit()
+			DialogueHandler(self, self.last_interaction)
 
 
 	def DeathSequence(self):

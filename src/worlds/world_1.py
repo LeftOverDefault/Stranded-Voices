@@ -74,7 +74,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
-		"entities": ["jason"]
+		"entities": []
 	},
 	"hydroponics_room": {
 		"name": "Hydroponics Room",
@@ -131,7 +131,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
-		"entities": []
+		"entities": ["jason"]
 	},
 	"droid_hold_l": {
 		"name": "Droid Hold (L)",
