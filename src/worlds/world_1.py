@@ -913,30 +913,8 @@ world_1 = {
 		"entities": []
 	},
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-"""
-	"": {
-		"name": "",
+	"computer_core_chamber": {
+		"name": "Computer Core Chamber",
 		"description": None,
 		"examination": None,
 		"directions": {
@@ -954,4 +932,384 @@ world_1 = {
 		"objects": [],
 		"entities": []
 	},
-"""
+	"shield_generator_maintenance_room": {
+		"name": "Shield Generator Maintenance Room",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"miscellaneous_storage_room": {
+		"name": "Miscellaneous Storage Room",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"landing_gear_maintenance_room": {
+		"name": "Landing Gear Maintenance Room",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"repulser_lift_maintenance_room": {
+		"name": "Repulser Lift Maintenance Room",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"cargo_bay_l_1": {
+		"name": "Cargo Bay (L) [1]",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"cargo_bay_l_2": {
+		"name": "Cargo Bay (L) [2]",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"cargo_bay_r_1": {
+		"name": "Cargo Bay (R) [1]",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"cargo_bay_r_2": {
+		"name": "Cargo Bay (R) [2]",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"cold_storage_room": {
+		"name": "Cold Storage Room",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"dry_storage_room": {
+		"name": "Dry Storage Room",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"spacecraft_storage_room_1": {
+		"name": "Spacecraft Storage Room [1]",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"spacecraft_storage_room_2": {
+		"name": "Spacecraft Storage Room [2]",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"airlock_chamber": {
+		"name": "Airlock Chamber",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"vehicle_storage_bay": {
+		"name": "Vehicle Storage Bay",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"engine_mechanics_room_l": {
+		"name": "Engine Mechanics Room (L)",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"engine_mechanics_room_r": {
+		"name": "Engine Mechanics Room (R)",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"hyperdrive_control_room": {
+		"name": "Hyperdrive Control Room",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"secondary_power_core_chamber": {
+		"name": "Secondary Power Core Chamber",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"repulser_lift_l": {
+		"name": "Repulser Lift (L)",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+	"repulser_lift_r": {
+		"name": "Repulser Lift R",
+		"description": None,
+		"examination": None,
+		"directions": {
+			"north": None,
+			"north_east": None,
+			"north_west": None,
+			"east": None,
+			"south": None,
+			"south_east": None,
+			"south_west": None,
+			"west": None,
+			"up": None,
+			"down": None
+		},
+		"objects": [],
+		"entities": []
+	},
+}
