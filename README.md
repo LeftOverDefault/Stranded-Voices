@@ -4,7 +4,7 @@
 
 ## Description
 
-Stranded Voices is a cyberpunk-themed game designed to immerse users in a text-based futuristic dystopian universe. It combines elements of cybernetics, advanced technology and detailed lore to create an immersive experience.
+Stranded Voices is a space-themed game designed to immerse users in a text-based futuristic dystopian universe. It combines elements of cybernetics, advanced technology and detailed lore to create an immersive experience.
 
 
 ## Story
