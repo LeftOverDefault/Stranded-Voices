@@ -1312,7 +1312,6 @@ world_1 = {
 		"entities": []
 	},
 }
-
 """
 1. Crew Quarters (R):
 The Crew Quarters (R) provide living spaces for the ship's crew members. While the specific details of the quarters may vary, they typically consist of compact but comfortable rooms with sleeping arrangements, personal storage units, and basic amenities. These quarters offer a private retreat where crew members can rest and recharge before their next shift.
