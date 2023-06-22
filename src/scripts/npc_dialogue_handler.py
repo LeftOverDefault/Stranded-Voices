@@ -1,9 +1,9 @@
 import sys
 
 from src.scenes.game_screen import GameScreen
+from src.scenes.interaction_screen import InteractScreen
 from src.entities.entities import entities
 from src.scripts.error import DialogueError
-from src.scenes.game_screen import GameScreen
 
 
 def DialogueHandler(player, npc_entity):
@@ -13,10 +13,8 @@ def DialogueHandler(player, npc_entity):
 	npc_text, responses = dialogue.split(" ~ ")
 	split_responses = [x.strip() for x in responses.split(" | ")]
 	last_dialogue_option = list(npc["dialogue"].keys())[-1]
-
 	if entities[npc_entity]["type"] == "regular" and entities[npc_entity]["met"] == False:
-		print(npc_text)
-		print(split_responses)
+		InteractScreen(player, npc, npc_text, split_responses)
 		user_input = str(input("🮥🮥🮥 "))
 		player.previous_input = user_input
 		user_input = user_input.lower()
@@ -47,6 +45,7 @@ def DialogueHandler(player, npc_entity):
 				player.Prompt()
 			else:
 				player.dialogue_index += ".2"
+				InteractScreen(player, npc, npc_text, split_responses)
 				player.InteractPrompt()
 		elif user_input == "3":
 			if len(player.dialogue_index) == len(last_dialogue_option):

@@ -2,7 +2,7 @@ import os
 import sys
 
 from src.entities.entities import entities
-from src.scenes.game_screen import GameScreen, InteractScreen
+from src.scenes.game_screen import GameScreen
 from src.scripts.check_player_status import CheckPlayerStatus
 from src.scripts.error import DirectionError, InteractionError, LocationError, PromptError
 from src.scripts.movement_handler import Move
@@ -66,12 +66,10 @@ class Player:
 
 			elif command == "interact":
 				if args != None:
-					InteractScreen(self)
 					self.last_interaction = args
 					self.InteractPrompt()
 				else:
 					self.previous_error = InteractionError(self)
-					InteractScreen(self)
 					self.last_interaction = args
 					self.InteractPrompt()
 
