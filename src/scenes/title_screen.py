@@ -1,16 +1,8 @@
 import os
+import sys
 
+from src.scenes.game_screen import GameScreen
 
-
-
-
-"""
-   ___  _   _ ___ _____ 
-  / _ \| | | |_ _|_   _|
- | (_) | |_| || |  | |  
-  \__\_\\___/|___| |_| 
-
-"""
 
 def TitleScreen(player):
     os.system("clear")
@@ -52,3 +44,9 @@ def TitleScreenSelections(player):
     while user_input not in ["start", "help", "quit"]:
         user_input = input("🮥🮥🮥 ")
         TitleScreen(player)
+    if user_input == "start":
+        GameScreen(player)
+    elif user_input == "help":
+        print("Game Help")
+    elif user_input == "quit":
+        sys.exit()

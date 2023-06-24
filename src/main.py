@@ -28,4 +28,3 @@ class Main:
 	def run(self) -> None:
 		print(f"{WHITE}{BLACK_BG}")
 		TitleScreen(self.player)
-		# GameScreen(self.player)
