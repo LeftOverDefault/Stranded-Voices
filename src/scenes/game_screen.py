@@ -113,3 +113,4 @@ def GameScreen(player):
 	print(f"┃                                                                          ┃               ┃")
 	print(f"┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━┛")
 	player.previous_error = ""
+	player.Prompt()

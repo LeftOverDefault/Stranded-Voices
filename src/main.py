@@ -3,8 +3,8 @@ import platform
 
 from src.classes.player import Player
 from src.scenes.game_screen import GameScreen
+from src.scenes.title_screen import TitleScreen
 from src.utils.colors import *
-from src.worlds.world_1 import world_1
 
 
 class Main:
@@ -27,5 +27,5 @@ class Main:
 
 	def run(self) -> None:
 		print(f"{WHITE}{BLACK_BG}")
-		GameScreen(self.player)
-		self.player.Prompt()
+		TitleScreen(self.player)
+		# GameScreen(self.player)

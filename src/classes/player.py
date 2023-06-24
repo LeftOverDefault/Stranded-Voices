@@ -61,9 +61,6 @@ class Player:
 					self.previous_error = DirectionError(self, args)
 					GameScreen(self)
 					self.Prompt()
-
-
-
 			elif command == "interact":
 				if args != None:
 					self.last_interaction = args
@@ -72,8 +69,6 @@ class Player:
 					self.previous_error = InteractionError(self)
 					self.last_interaction = args
 					self.InteractPrompt()
-
-
 			elif command == "exit":
 				sys.exit()
 		else:
