@@ -1,9 +1,9 @@
 import sys
 
-from src.scenes.game_screen import GameScreen
-from src.scenes.interaction_screen import InteractScreen
 from src.entities.entities import entities
 from src.scripts.error import DialogueError
+from src.scenes.game_screen import GameScreen
+from src.scenes.interaction_screen import InteractScreen
 
 
 def DialogueHandler(player, npc_entity):
