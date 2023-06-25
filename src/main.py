@@ -6,6 +6,10 @@ from src.scenes.game_screen import GameScreen
 from src.scenes.title_screen import TitleScreen
 from src.utils.colors import *
 
+from dlc.builder.world_builder import WorldBuilder
+from dlc.english_lover.english_lover import EnglishLover
+from dlc.redemption.redemption import Redemption
+
 
 class Main:
 	def __init__(self) -> None:
@@ -14,6 +18,8 @@ class Main:
 		self.SCREEN_WIDTH = 92
 		self.SCREEN_HEIGHT = 30
 		self.SetConsoleSize()
+
+		self.dlcs = [WorldBuilder(), EnglishLover(), Redemption()]
 
 
 	def SetConsoleSize(self):
@@ -27,4 +33,4 @@ class Main:
 
 	def run(self) -> None:
 		print(f"{WHITE}{BLACK_BG}")
-		TitleScreen(self.player)
+		TitleScreen(self.player, self.dlcs)
