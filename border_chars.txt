@@ -1,0 +1,57 @@
+┏━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┓                \n
+┃  [ PUREYA ]  ┃ [HP] 100/100 ┃ [ COMMS ] -- ┃ [ DEFIANCE ] ┃ [ SETTINGS ] ┃                \n
+┣━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━╋━━━[ YOROI ]━━━┓\n
+┃ ┏━━━━━━━━━━━━┓                                                           ┃               ┃\n
+┃ ┃  LOCATION  ┃                                                           ┃ [ HERUMETTO ] ┃\n
+┃ ┣━━━━━━━━━━━━┛                                                           ┃     00/10     ┃\n
+┃ ┣╸DESCRIPTION                                                            ┃  [ MUNEATE ]  ┃\n
+┃ ┣╸DESCRIPTION                                                            ┃     00/10     ┃\n
+┃ ┣╸DESCRIPTION                                                            ┃  [ REGINSU ]  ┃\n
+┃ ┣╸DESCRIPTION                                                            ┃     00/10     ┃\n
+┃   🮥  OBJECTS                                                             ┃   [ BUTSU ]   ┃\n
+┃   🮥  OBJECTS                                                             ┃     00/10     ┃\n
+┃   🮥  ENTITIES                                                            ┃               ┃\n
+┃   🮥  ENTITIES                                                            ┣━━━[ ZAIKO ]━━━┫\n
+┃                                                                          ┃               ┃\n
+┃ NORTH | LOCATION                     EAST | LOCATION                     ┃               ┃\n
+┃ SOUTH | LOCATION                     WEST | LOCATION                     ┃               ┃\n
+┃ NORTH-EAST | LOCATION                NORTH-WEST | LOCATION               ┃               ┃\n
+┃ SOUTH-EAST | LOCATION                SOUTH-WEST | LOCATION               ┃               ┃\n
+┃ UP | LOCATION                        DOWN | LOCATION                     ┃               ┃\n
+┃                                                                          ┃               ┃\n
+┣━[ ROGU ]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫               ┃\n
+┃                                                                          ┃               ┃\n
+┃ # Previous Command                                                       ┃               ┃\n
+┃ # Error                                                                  ┃               ┃\n
+┃                                                                          ┃               ┃\n
+┃                                                                          ┃               ┃\n
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━┛
+🮥🮥🮥 
+
+
+
+J.A.L.E. = Japanese Aeronautical Logistics Enterprises
+J.A.C.K. = Japanese Aeronautical CMS Kernel
+CMS = content management system
+
+
+━┃┏┓┗┛┣┫┳┻╋╸╹╺╻
+
+
+
+A.C.E. = Advanced Combat Enterprises
+B.O.X. = Battlefield Operations Xecutive
+C.L.A.W. = Civil Law-enforcement Action Ward
+E.A.G.L.E. = Earth's Aeronautical Governance Logistics Experiment
+F.I.G.H.T. = Freedom's International Garrison of Heightened Terrestrials
+I.C.E. = Inter-Continental Executioner
+P.A.T.R.I.O.T. = Primary Anti-Terrorist Regional & International Operations Taskforce
+S.A.G.A. = Strategic Assault Genetic Android
+S.C.A.R. = Special Criminals And Renegades
+S.C.O.U.R.G.E. = Secret Council Of Unlawful Renegade Gathering Evil
+F.I.S.T. = Flying Infantry Shock Trooper
+S.H.I.E.L.D. = Supreme Headquarters International Espionage Law-Enforcement Division
+T.H.U.N.D.E.R. = The Higher United Nations Defense Enforcement Reserves
+U.N.C.L.E. = United Network Command for Law Enforcement
+A.A.A.A.A.A. = Association for the Abolition of Abused Abbreviations and Asinine Acronyms 
+J.O.S.A.A. = Japanese Outer Space and Aeronautics Administration

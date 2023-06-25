@@ -7,7 +7,6 @@ from dlc.redemption.redemption import Redemption
 from dlc.xeon.xeon import Xeon
 
 from src.classes.player import Player
-from src.scenes.game_screen import GameScreen
 from src.scenes.title_screen import TitleScreen
 from src.utils.colors import *
 
@@ -20,7 +19,6 @@ class Main:
 		self.SCREEN_WIDTH = 92
 		self.SCREEN_HEIGHT = 30
 		self.SetConsoleSize()
-
 
 
 	def SetConsoleSize(self):
