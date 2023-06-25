@@ -2,10 +2,10 @@ import os
 import sys
 
 from src.scenes.ui_screens.dlc_screen import DlcScreen
-from scenes.game_screens.game_screen import GameScreen
+from src.scenes.game_screens.game_screen import GameScreen
 from src.scenes.ui_screens.help_screen import HelpScreen
-
 from src.worlds.world_1 import world_1, world_name
+
 from dlc.redemption.world.redemption_world import redemption_world, redemption_world_name
 from dlc.xeon.world.xeon_world import xeon_world, xeon_world_name
 
@@ -46,9 +46,9 @@ def TitleScreen(player, dlcs):
 def TitleScreenSelections(player, dlcs):
     user_input = input("🮥🮥🮥 ")
     user_input = user_input.lower()
-    while user_input not in ["play", "help", "exit", "dlc", "redemption"]:
-        user_input = input("🮥🮥🮥 ")
+    while user_input not in ["play", "help", "exit", "dlc", "xeon" "redemption"]:
         TitleScreen(player, dlcs)
+        user_input = input("🮥🮥🮥 ")
     if user_input == "play":
         player.current_location = "crew_quarters_l"
         player.current_world = world_1
@@ -60,19 +60,19 @@ def TitleScreenSelections(player, dlcs):
         sys.exit()
     elif user_input == "dlc":
         DlcScreen(player, dlcs, TitleScreen)
-    elif user_input == "redemption":
-        if dlcs[2].initialized == True:
-            player.current_location = ""
-            player.current_world = redemption_world
-            player.current_world_name = redemption_world_name
-            GameScreen(player)
-        else:
-            print("That DLC is not initialized.")
     elif user_input == "xeon":
-        if dlcs[3].initialized == True:
+        if dlcs[2].initialized == True:
             player.current_location = ""
             player.current_world = xeon_world
             player.current_world_name = xeon_world_name
             GameScreen(player)
         else:
-            print("That DLC is not initialized.")
+            pass
+    elif user_input == "redemption":
+        if dlcs[3].initialized == True:
+            player.current_location = ""
+            player.current_world = redemption_world
+            player.current_world_name = redemption_world_name
+            GameScreen(player)
+        else:
+            pass
