@@ -59,7 +59,7 @@ def TitleScreenSelections(player, dlcs):
     elif user_input == "exit":
         sys.exit()
     elif user_input == "dlc":
-        DlcScreen(player, dlcs)
+        DlcScreen(player, dlcs, TitleScreen)
     elif user_input == "redemption":
         if dlcs[2].initialized == True:
             player.current_location = ""

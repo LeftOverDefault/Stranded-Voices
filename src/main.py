@@ -1,15 +1,15 @@
 import os
 import platform
 
-from src.classes.player import Player
-from src.scenes.game_screen import GameScreen
-from src.scenes.title_screen import TitleScreen
-from src.utils.colors import *
-
 from dlc.builder.world_builder import WorldBuilder
 from dlc.english_lover.english_lover import EnglishLover
 from dlc.redemption.redemption import Redemption
 from dlc.xeon.xeon import Xeon
+
+from src.classes.player import Player
+from src.scenes.game_screen import GameScreen
+from src.scenes.title_screen import TitleScreen
+from src.utils.colors import *
 
 
 class Main:
