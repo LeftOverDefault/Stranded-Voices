@@ -1,4 +1,4 @@
-xeon_world_name = "Xeon-9VN6"
+xeon_world_name = "xeon-9VN6"
 
 xeon_world = {
     "": {

@@ -1,9 +1,9 @@
 import os
 import sys
 
-from src.scenes.dlc_screen import DlcScreen
-from src.scenes.game_screen import GameScreen
-from src.scenes.help_screen import HelpScreen
+from src.scenes.ui_screens.dlc_screen import DlcScreen
+from scenes.game_screens.game_screen import GameScreen
+from src.scenes.ui_screens.help_screen import HelpScreen
 
 from src.worlds.world_1 import world_1, world_name
 from dlc.redemption.world.redemption_world import redemption_world, redemption_world_name

@@ -2,8 +2,8 @@ import os
 import sys
 
 from src.entities.entities import entities
-from src.scenes.game_screen import GameScreen
-from src.scenes.title_screen import TitleScreen
+from scenes.game_screens.game_screen import GameScreen
+from src.scenes.ui_screens.title_screen import TitleScreen
 from src.scripts.check_player_status import CheckPlayerStatus
 from src.scripts.error import DirectionError, InteractionError, LocationError, PromptError
 from src.scripts.movement_handler import Move

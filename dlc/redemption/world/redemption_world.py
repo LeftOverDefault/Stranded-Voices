@@ -1,4 +1,4 @@
-redemption_world_name = "Cora-JX4"
+redemption_world_name = "cora-JX4"
 redemption_world = {
     "": {
         "name": "",
