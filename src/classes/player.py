@@ -3,18 +3,18 @@ import sys
 
 from src.entities.entities import entities
 from src.scenes.game_screen import GameScreen
+from src.scenes.title_screen import TitleScreen
 from src.scripts.check_player_status import CheckPlayerStatus
 from src.scripts.error import DirectionError, InteractionError, LocationError, PromptError
 from src.scripts.movement_handler import Move
 from src.scripts.npc_dialogue_handler import DialogueHandler
-from src.worlds.world_1 import world_1, world_name
 
 
 class Player:
 	def __init__(self) -> None:
-		self.current_location = "crew_quarters_l"
-		self.current_world = world_1
-		self.current_world_name = world_name
+		self.current_location = ""
+		self.current_world = ""
+		self.current_world_name = ""
 		self.hp = 100
 		self.alive = True
 		self.helmet_points = 0
@@ -25,6 +25,7 @@ class Player:
 		self.previous_error = ""
 		self.last_interaction = ""
 		self.dialogue_index = "0"
+		self.comms_established = False
 
 
 	def Prompt(self):

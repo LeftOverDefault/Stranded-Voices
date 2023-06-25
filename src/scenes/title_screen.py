@@ -5,6 +5,9 @@ from src.scenes.dlc_screen import DlcScreen
 from src.scenes.game_screen import GameScreen
 from src.scenes.help_screen import HelpScreen
 
+from src.worlds.world_1 import world_1, world_name
+from dlc.redemption.world.redemption_world import redemption_world, redemption_world_name
+
 def TitleScreen(player, dlcs):
     os.system("clear")
     print(fr"┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓")
@@ -27,7 +30,7 @@ def TitleScreen(player, dlcs):
     print(fr"┃   ┃                       ┃   ┃    _  _ ___ _    ___     ┃   ┃                       ┃   ┃")
     print(fr"┃   ┃  {dlcs[2].Active()} - Redemption       ┃   ┃   | || | __| |  | _ \    ┃   ┃                       ┃   ┃")
     print(fr"┃   ┃                       ┃   ┃   | __ | _|| |__|  _/    ┃   ┃                       ┃   ┃")
-    print(fr"┃   ┃  X -                  ┃   ┃   |_||_|___|____|_|      ┃   ┃                       ┃   ┃")
+    print(fr"┃   ┃  {dlcs[3].Active()} - Xeon             ┃   ┃   |_||_|___|____|_|      ┃   ┃                       ┃   ┃")
     print(fr"┃   ┃                       ┃   ┃    _____  _____ _____    ┃   ┃                       ┃   ┃")
     print(fr"┃   ┃  X -                  ┃   ┃   | __\ \/ /_ _|_   _|   ┃   ┃                       ┃   ┃")
     print(fr"┃   ┃                       ┃   ┃   | _| >  < | |  | |     ┃   ┃                       ┃   ┃")
@@ -46,6 +49,9 @@ def TitleScreenSelections(player, dlcs):
         user_input = input("🮥🮥🮥 ")
         TitleScreen(player)
     if user_input == "play":
+        player.current_location = "crew_quarters_l"
+        player.current_world = world_1
+        player.current_world_name = world_name
         GameScreen(player)
     elif user_input == "help":
         HelpScreen(player, dlcs)
@@ -55,6 +61,9 @@ def TitleScreenSelections(player, dlcs):
         DlcScreen(player, dlcs)
     elif user_input == "redemption":
         if dlcs[2].initialized == True:
-            print("Accepted")
+            player.current_location = ""
+            player.current_world = redemption_world
+            player.current_world_name = redemption_world_name
+            GameScreen(player)
         else:
             print("That DLC is not initialized.")

@@ -9,17 +9,18 @@ from src.utils.colors import *
 from dlc.builder.world_builder import WorldBuilder
 from dlc.english_lover.english_lover import EnglishLover
 from dlc.redemption.redemption import Redemption
+from dlc.xeon.xeon import Xeon
 
 
 class Main:
 	def __init__(self) -> None:
 		self.title = "Stranded Voices"
+		self.dlcs = [WorldBuilder(), EnglishLover(), Redemption(), Xeon()]
 		self.player = Player()
 		self.SCREEN_WIDTH = 92
 		self.SCREEN_HEIGHT = 30
 		self.SetConsoleSize()
 
-		self.dlcs = [WorldBuilder(), EnglishLover(), Redemption()]
 
 
 	def SetConsoleSize(self):
