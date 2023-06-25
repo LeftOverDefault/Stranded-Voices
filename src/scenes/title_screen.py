@@ -2,6 +2,7 @@ import os
 import sys
 
 from src.scenes.game_screen import GameScreen
+from src.scenes.help_screen import HelpScreen
 
 
 def TitleScreen(player):
@@ -47,6 +48,6 @@ def TitleScreenSelections(player):
     if user_input == "start":
         GameScreen(player)
     elif user_input == "help":
-        print("Game Help")
+        HelpScreen(player)
     elif user_input == "quit":
         sys.exit()
