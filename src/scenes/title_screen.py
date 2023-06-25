@@ -7,6 +7,7 @@ from src.scenes.help_screen import HelpScreen
 
 from src.worlds.world_1 import world_1, world_name
 from dlc.redemption.world.redemption_world import redemption_world, redemption_world_name
+from dlc.xeon.world.xeon_world import xeon_world, xeon_world_name
 
 def TitleScreen(player, dlcs):
     os.system("clear")
@@ -28,9 +29,9 @@ def TitleScreen(player, dlcs):
     print(fr"┃   ┃                       ┃   ┃   |  _/ |__ / _ \ V /    ┃   ┃                       ┃   ┃")
     print(fr"┃   ┃  {dlcs[1].Active()} - English Lover    ┃   ┃   |_| |____/_/ \_\_|     ┃   ┃                       ┃   ┃")
     print(fr"┃   ┃                       ┃   ┃    _  _ ___ _    ___     ┃   ┃                       ┃   ┃")
-    print(fr"┃   ┃  {dlcs[2].Active()} - Redemption       ┃   ┃   | || | __| |  | _ \    ┃   ┃                       ┃   ┃")
+    print(fr"┃   ┃  {dlcs[2].Active()} - Xeon             ┃   ┃   | || | __| |  | _ \    ┃   ┃                       ┃   ┃")
     print(fr"┃   ┃                       ┃   ┃   | __ | _|| |__|  _/    ┃   ┃                       ┃   ┃")
-    print(fr"┃   ┃  {dlcs[3].Active()} - Xeon             ┃   ┃   |_||_|___|____|_|      ┃   ┃                       ┃   ┃")
+    print(fr"┃   ┃  {dlcs[3].Active()} - Redemption       ┃   ┃   |_||_|___|____|_|      ┃   ┃                       ┃   ┃")
     print(fr"┃   ┃                       ┃   ┃    _____  _____ _____    ┃   ┃                       ┃   ┃")
     print(fr"┃   ┃  X -                  ┃   ┃   | __\ \/ /_ _|_   _|   ┃   ┃                       ┃   ┃")
     print(fr"┃   ┃                       ┃   ┃   | _| >  < | |  | |     ┃   ┃                       ┃   ┃")
@@ -64,6 +65,14 @@ def TitleScreenSelections(player, dlcs):
             player.current_location = ""
             player.current_world = redemption_world
             player.current_world_name = redemption_world_name
+            GameScreen(player)
+        else:
+            print("That DLC is not initialized.")
+    elif user_input == "xeon":
+        if dlcs[3].initialized == True:
+            player.current_location = ""
+            player.current_world = xeon_world
+            player.current_world_name = xeon_world_name
             GameScreen(player)
         else:
             print("That DLC is not initialized.")

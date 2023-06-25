@@ -15,7 +15,7 @@ from dlc.xeon.xeon import Xeon
 class Main:
 	def __init__(self) -> None:
 		self.title = "Stranded Voices"
-		self.dlcs = [WorldBuilder(), EnglishLover(), Redemption(), Xeon()]
+		self.dlcs = [WorldBuilder(), EnglishLover(), Xeon(), Redemption()]
 		self.player = Player()
 		self.SCREEN_WIDTH = 92
 		self.SCREEN_HEIGHT = 30
