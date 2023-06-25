@@ -47,14 +47,14 @@ def TitleScreenSelections(player, dlcs):
     user_input = user_input.lower()
     while user_input not in ["play", "help", "exit", "dlc", "redemption"]:
         user_input = input("🮥🮥🮥 ")
-        TitleScreen(player)
+        TitleScreen(player, dlcs)
     if user_input == "play":
         player.current_location = "crew_quarters_l"
         player.current_world = world_1
         player.current_world_name = world_name
         GameScreen(player)
     elif user_input == "help":
-        HelpScreen(player, dlcs)
+        HelpScreen(player, dlcs, TitleScreen)
     elif user_input == "exit":
         sys.exit()
     elif user_input == "dlc":
