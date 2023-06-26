@@ -29,9 +29,9 @@ def TitleScreen(player, dlcs):
     print(fr"┃   ┃                       ┃   ┃   |  _/ |__ / _ \ V /    ┃   ┃                       ┃   ┃")
     print(fr"┃   ┃  {dlcs[1].Active()} - English Lover    ┃   ┃   |_| |____/_/ \_\_|     ┃   ┃                       ┃   ┃")
     print(fr"┃   ┃                       ┃   ┃    _  _ ___ _    ___     ┃   ┃                       ┃   ┃")
-    print(fr"┃   ┃  {dlcs[2].Active()} - Xeon             ┃   ┃   | || | __| |  | _ \    ┃   ┃                       ┃   ┃")
+    print(fr"┃   ┃  {dlcs[2].Active()} - Redemption       ┃   ┃   | || | __| |  | _ \    ┃   ┃                       ┃   ┃")
     print(fr"┃   ┃                       ┃   ┃   | __ | _|| |__|  _/    ┃   ┃                       ┃   ┃")
-    print(fr"┃   ┃  {dlcs[3].Active()} - Redemption       ┃   ┃   |_||_|___|____|_|      ┃   ┃                       ┃   ┃")
+    print(fr"┃   ┃  {dlcs[3].Active()} - Xeon             ┃   ┃   |_||_|___|____|_|      ┃   ┃                       ┃   ┃")
     print(fr"┃   ┃                       ┃   ┃    _____  _____ _____    ┃   ┃                       ┃   ┃")
     print(fr"┃   ┃  X -                  ┃   ┃   | __\ \/ /_ _|_   _|   ┃   ┃                       ┃   ┃")
     print(fr"┃   ┃                       ┃   ┃   | _| >  < | |  | |     ┃   ┃                       ┃   ┃")
@@ -46,7 +46,7 @@ def TitleScreen(player, dlcs):
 def TitleScreenSelections(player, dlcs):
     user_input = input("🮥🮥🮥 ")
     user_input = user_input.lower()
-    while user_input not in ["play", "help", "exit", "dlc", "xeon" "redemption"]:
+    while user_input not in ["play", "help", "exit", "dlc", "xeon", "redemption"]:
         TitleScreen(player, dlcs)
         user_input = input("🮥🮥🮥 ")
     if user_input == "play":
@@ -60,19 +60,19 @@ def TitleScreenSelections(player, dlcs):
         sys.exit()
     elif user_input == "dlc":
         DlcScreen(player, dlcs, TitleScreen)
-    elif user_input == "xeon":
+    elif user_input == "redemption":
         if dlcs[2].initialized == True:
+            player.current_location = "crash_site"
+            player.current_world = redemption_world
+            player.current_world_name = redemption_world_name
+            GameScreen(player)
+        else:
+            print("Not initialized.")
+    elif user_input == "xeon":
+        if dlcs[3].initialized == True:
             player.current_location = ""
             player.current_world = xeon_world
             player.current_world_name = xeon_world_name
             GameScreen(player)
         else:
-            pass
-    elif user_input == "redemption":
-        if dlcs[3].initialized == True:
-            player.current_location = ""
-            player.current_world = redemption_world
-            player.current_world_name = redemption_world_name
-            GameScreen(player)
-        else:
-            pass
+            print("Not initialized.")

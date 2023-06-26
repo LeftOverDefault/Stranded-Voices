@@ -14,7 +14,7 @@ from src.utils.colors import *
 class Main:
 	def __init__(self) -> None:
 		self.title = "Stranded Voices"
-		self.dlcs = [WorldBuilder(), EnglishLover(), Xeon(), Redemption()]
+		self.dlcs = [WorldBuilder(), EnglishLover(), Redemption(), Xeon()]
 		self.player = Player()
 		self.SCREEN_WIDTH = 92
 		self.SCREEN_HEIGHT = 30
