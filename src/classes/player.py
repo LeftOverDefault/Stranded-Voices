@@ -3,6 +3,7 @@ import sys
 
 from src.entities.entities import entities
 from src.scenes.game_screens.game_screen import GameScreen
+from src.scripts.check_game_status import CheckGameStatus
 from src.scripts.check_player_status import CheckPlayerStatus
 from src.scripts.error import DirectionError, InteractionError, LocationError, PromptError
 from src.scripts.movement_handler import Move
@@ -25,10 +26,13 @@ class Player:
 		self.last_interaction = ""
 		self.dialogue_index = "0"
 		self.comms_established = False
+		self.intelligence = 0
+		self.puzzles_solved = 0
 
 
 	def Prompt(self):
 		CheckPlayerStatus(self)
+		CheckGameStatus(self)
 		if self.alive != False:
 			user_input = input("🮥🮥🮥 ")
 			self.previous_input = user_input
