@@ -1,0 +1,2 @@
+def CheckGameStatus(player):
+    pass
