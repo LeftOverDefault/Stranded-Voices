@@ -7,6 +7,7 @@
 /src/scenes/__pycache__
 /src/scenes/game_screens/__pycache__
 /src/scenes/ui_screens/__pycache__
-/src/scripts/__pycache__
+/src/scripts/checks/__pycache__
+/src/scripts/handlers/__pycache__
 /src/utils/__pycache__
 /src/worlds/__pycache__

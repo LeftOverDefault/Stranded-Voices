@@ -12,9 +12,9 @@ from src.scripts.handlers.npc_dialogue_handler import DialogueHandler
 
 class Player:
 	def __init__(self) -> None:
-		self.current_location = ""
+		self.current_location = None
 		self.current_world = None
-		self.current_world_name = ""
+		self.current_world_name = None
 		self.hp = 100
 		self.alive = True
 		self.helmet_points = 0
