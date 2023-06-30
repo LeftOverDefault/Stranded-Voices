@@ -1,4 +1,4 @@
-from src.scripts.event_handler import RunEvent
+from src.scripts.handlers.event_handler import RunEvent
 
 def CheckPuzzles(player):
     world = player.current_world
@@ -15,4 +15,3 @@ def CheckPuzzles(player):
 
 def UpdatePuzzles(player):
     pass
-

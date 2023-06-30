@@ -3,12 +3,12 @@ import sys
 
 from src.entities.entities import entities
 from src.scenes.game_screens.game_screen import GameScreen
-from src.scripts.check_game_status import CheckGameStatus
-from src.scripts.check_player_status import CheckPlayerStatus
-from src.scripts.error import DirectionError, InteractionError, LocationError, PromptError
-from src.scripts.movement_handler import Move
-from src.scripts.npc_dialogue_handler import DialogueHandler
-
+from src.scripts.checks.check_game_status import CheckGameStatus
+from src.scripts.checks.check_errors import DirectionError, InteractionError, LocationError, PromptError
+from src.scripts.checks.check_player_status import CheckPlayerStatus
+from src.scripts.checks.check_puzzle_status import CheckPuzzles, UpdatePuzzles
+from src.scripts.handlers.movement_handler import Move
+from src.scripts.handlers.npc_dialogue_handler import DialogueHandler
 
 class Player:
 	def __init__(self) -> None:
@@ -33,6 +33,9 @@ class Player:
 	def Prompt(self):
 		CheckPlayerStatus(self)
 		CheckGameStatus(self)
+		CheckPuzzles(self)
+		UpdatePuzzles(self)
+
 		if self.alive != False:
 			user_input = input("🮥🮥🮥 ")
 			self.previous_input = user_input

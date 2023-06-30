@@ -1,7 +1,7 @@
 import sys
 
 from src.entities.entities import entities
-from src.scripts.error import DialogueError
+from src.scripts.checks.check_errors import DialogueError
 from src.scenes.game_screens.game_screen import GameScreen
 from src.scenes.game_screens.interaction_screen import InteractScreen
 
