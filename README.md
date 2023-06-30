@@ -68,6 +68,8 @@ The game was programmed by myself, [LeftOverDefault](https://github.com/LeftOver
 
 Any [contributions](#contributing) will be credited in the game's credit screen.
 
+---
+
 ## Contributing
 
 Contributions are welcome! If you have any ideas for extra content (new worlds and such), bug reports, or feature requests, please open an issue or submit a pull request.

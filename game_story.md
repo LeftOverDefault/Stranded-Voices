@@ -7,8 +7,8 @@ the engine requires a new:
 - pulse compression matrix
 - circuit board
 - voltage regulator x2
-- nanofiber reinforced plasma conduit
+- nanofiber plasma conduit
 - fusion reactor core module
 - quantum fluctuation regulator
 - quantum phase transistor array
-- antigravitic thrust stabilizer
+- anti-gravitic thrust stabilizer
