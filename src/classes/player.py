@@ -26,7 +26,7 @@ class Player:
 		self.last_interaction = ""
 		self.dialogue_index = "0"
 		self.comms_established = False
-		self.intelligence = 0
+		self.intelligence = 1
 		self.puzzles_solved = 0
 
 
