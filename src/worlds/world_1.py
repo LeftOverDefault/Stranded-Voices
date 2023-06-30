@@ -19,7 +19,9 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "","solved": False
+		"puzzle_answer": "requires_:",
+        "solved": False,
+        "event": None
 	},
 	"shield_deployer_chamber_l": {
 		"name": "Shield Deployer Chamber (L)",
@@ -40,7 +42,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"shield_deployer_chamber_r": {
@@ -62,7 +64,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"recreation_room": {
@@ -84,7 +86,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"hydroponics_room": {
@@ -106,7 +108,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"storage_room": {
@@ -128,7 +130,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
 		"solved": False
 	},
 	"crew_quarters_l": {
@@ -150,7 +152,7 @@ world_1 = {
 		"objects": [],
 		"entities": ["jason"],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
 		"solved": False
 	},
 	"droid_hold_l": {
@@ -172,7 +174,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
 		"solved": False
 	},
 	"escape_pods_l": {
@@ -194,7 +196,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
 		"solved": False
 	},
 	"crew_quarters_r": {
@@ -216,7 +218,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
 		"solved": False
 	},
 	"droid_hold_r": {
@@ -238,7 +240,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
 		"solved": False
 	},
 	"escape_pods_r": {
@@ -260,7 +262,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
 		"solved": False
 	},
 	"mess_hall": {
@@ -282,7 +284,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
 		"solved": False
 	},
 	"galley": {
@@ -304,7 +306,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
 		"solved": False
 	},
 	"janitorial_room": {
@@ -326,7 +328,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"training_room": {
@@ -348,7 +350,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"secondary_bridge": {
@@ -370,7 +372,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"fueling_bay_l": {
@@ -392,7 +394,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"turret_control_l": {
@@ -414,7 +416,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"engine_room_l": {
@@ -436,7 +438,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"fueling_bay_r": {
@@ -459,7 +461,7 @@ world_1 = {
 		"entities": []
 		,
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"turret_control_r": {
@@ -482,7 +484,7 @@ world_1 = {
 		"entities": []
 		,
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"engine_room_r": {
@@ -505,7 +507,7 @@ world_1 = {
 		"entities": []
 		,
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"hyperdrive_generator": {
@@ -528,7 +530,7 @@ world_1 = {
 		"entities": []
 		,
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"hyperdrive_motivator": {
@@ -551,7 +553,7 @@ world_1 = {
 		"entities": []
 		,
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"secondary_hyperdrive_unit_l": {
@@ -574,7 +576,7 @@ world_1 = {
 		"entities": []
 		,
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"secondary_hyperdrive_unit_r": {
@@ -597,7 +599,7 @@ world_1 = {
 		"entities": []
 		,
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"recreation_room_balcony": {
@@ -620,7 +622,7 @@ world_1 = {
 		"entities": []
 		,
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"captains_station": {
@@ -643,7 +645,7 @@ world_1 = {
 		"entities": []
 		,
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"conference_room": {
@@ -665,7 +667,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"computer_control_room": {
@@ -687,7 +689,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"main_bridge": {
@@ -709,7 +711,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"strategy_room": {
@@ -731,7 +733,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"locker_room_l": {
@@ -753,7 +755,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"officers_quarters_l": {
@@ -775,7 +777,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"locker_room_r": {
@@ -797,7 +799,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"officers_quarters_r": {
@@ -819,7 +821,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"laboratory": {
@@ -841,7 +843,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"deck": {
@@ -863,7 +865,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"brig": {
@@ -885,7 +887,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"weapons_storage": {
@@ -907,7 +909,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"medbay": {
@@ -929,7 +931,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"primary_generator": {
@@ -951,7 +953,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"engine_platform_l": {
@@ -973,7 +975,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"turret_maintenance_room_l": {
@@ -995,7 +997,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"engine_platform_r": {
@@ -1017,7 +1019,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"turret_maintenance_room_r": {
@@ -1039,7 +1041,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"engineering_room": {
@@ -1061,7 +1063,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"computer_core_chamber": {
@@ -1083,7 +1085,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"shield_generator_maintenance_room": {
@@ -1105,7 +1107,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"miscellaneous_storage_room": {
@@ -1127,7 +1129,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"landing_gear_maintenance_room": {
@@ -1149,7 +1151,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"repulser_lift_maintenance_room": {
@@ -1171,7 +1173,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"cargo_bay_l_1": {
@@ -1193,7 +1195,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"cargo_bay_l_2": {
@@ -1215,7 +1217,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"cargo_bay_r_1": {
@@ -1237,7 +1239,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"cargo_bay_r_2": {
@@ -1259,7 +1261,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"dry_storage_room": {
@@ -1281,7 +1283,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"cold_storage_room": {
@@ -1303,7 +1305,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"spacecraft_storage_room_1": {
@@ -1325,7 +1327,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"spacecraft_storage_room_2": {
@@ -1347,7 +1349,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"airlock_chamber": {
@@ -1369,7 +1371,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"vehicle_storage_bay": {
@@ -1391,7 +1393,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 	"engine_mechanics_room_l": {
@@ -1413,7 +1415,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
 		"solved": False
 	},
 	"engine_mechanics_room_r": {
@@ -1435,7 +1437,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
 		"solved": False
 	},
 	"hyperdrive_control_room": {
@@ -1457,7 +1459,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
 		"solved": False
 	},
 	"secondary_power_core_chamber": {
@@ -1479,7 +1481,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
 		"solved": False
 	},
 	"repulser_lift_l": {
@@ -1501,7 +1503,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
 		"solved": False
 	},
 	"repulser_lift_r": {
@@ -1523,7 +1525,7 @@ world_1 = {
 		"objects": [],
 		"entities": [],
 		"puzzle": "",
-		"puzzle_answer": "",
+		"puzzle_answer": "requires_:",
         "solved": False
 	},
 }
