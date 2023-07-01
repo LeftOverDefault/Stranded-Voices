@@ -4,7 +4,7 @@ import sys
 from src.entities.entities import entities
 from src.scenes.game_screens.game_screen import GameScreen
 from src.scripts.checks.check_game_status import CheckGameStatus
-from src.scripts.checks.check_errors import DirectionError, InteractionError, LocationError, PromptError, PlaceObjectError, RemoveObjectError, TakeObjectError
+from src.utils.errors import DirectionError, InteractionError, LocationError, PromptError, PlaceObjectError, RemoveObjectError, TakeObjectError
 from src.scripts.checks.check_player_status import CheckPlayerStatus
 from src.scripts.handlers.movement_handler import Move
 from src.scripts.handlers.npc_dialogue_handler import DialogueHandler
