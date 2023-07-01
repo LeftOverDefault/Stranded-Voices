@@ -4,6 +4,7 @@
     make an actual [story](game_story.md) to beat the game.
     finish entering and editing each room description
     add comments to each file
+    add player support for taking, dropping, placing, and removing objects {cm:2023-07-02}
 
 (E) Title Screens {c}
     finish the interaction screen
