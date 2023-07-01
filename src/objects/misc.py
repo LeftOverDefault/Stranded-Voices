@@ -34,10 +34,9 @@ misc_objects = {
 		"name": "Fuel Alternator",
 		"description": "A Fuel Alternator lies on the ground",
 		"found_location_description": "A Fuel Alternator sits in a box on a shelf.",
-		"correct_description": "",
+		"correct_description": "The Fuel Alternator is sits in the engine, rapidly oscillating inside.",
 		"found_location": "crew_quarters_l",
-		# "correct_location": "engine_room_l",
-		"correct_location": "crew_quarters_l",
+		"correct_location": "engine_room_l",
 		"special_object": True
 	},
 	"voltage_regulator": {
