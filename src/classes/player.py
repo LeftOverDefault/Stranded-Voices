@@ -4,11 +4,13 @@ import sys
 from src.entities.entities import entities
 from src.scenes.game_screens.game_screen import GameScreen
 from src.scripts.checks.check_game_status import CheckGameStatus
-from src.scripts.checks.check_errors import DirectionError, InteractionError, LocationError, PromptError, PlaceObjectError
+from src.scripts.checks.check_errors import DirectionError, InteractionError, LocationError, PromptError, PlaceObjectError, RemoveObjectError, TakeObjectError
 from src.scripts.checks.check_player_status import CheckPlayerStatus
 from src.scripts.handlers.movement_handler import Move
 from src.scripts.handlers.npc_dialogue_handler import DialogueHandler
 from src.scripts.handlers.object_placement_handler import PlacementHandler
+from src.scripts.handlers.object_remove_handler import RemovalHandler
+from src.scripts.handlers.object_take_handler import TakeHandler
 
 
 class Player:
@@ -75,7 +77,14 @@ class Player:
 					self.last_interaction = args
 					self.InteractPrompt()
 			elif command == "take":
-				pass
+				if args != None:
+					TakeHandler(self, args)
+					GameScreen(self)
+					self.Prompt()
+				else:
+					self.previous_error = TakeObjectError(self, args)
+					GameScreen(self)
+					self.Prompt()
 			elif command == "place":
 				if args != None:
 					PlacementHandler(self, args)
@@ -86,7 +95,14 @@ class Player:
 					GameScreen(self)
 					self.Prompt()
 			elif command == "remove":
-				pass
+				if args != None:
+					RemovalHandler(self, args)
+					GameScreen(self)
+					self.Prompt()
+				else:
+					self.previous_error = RemoveObjectError(self, args)
+					GameScreen(self)
+					self.Prompt()
 			elif command == "exit":
 				sys.exit()
 		else:

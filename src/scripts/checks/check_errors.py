@@ -42,3 +42,17 @@ def NotInInventoryError(player, object):
 def InventorySpaceError(player):
 	error = f"There is not enough space in your inventory for that."
 	return error
+
+def RemoveObjectError(player, object):
+	if object != None:
+		error = f"You can't remove the \"{object}\"."
+	else:
+		error = f"You can't remove nothing."
+	return error
+
+def TakeObjectError(player, object):
+	if object != None:
+		error = f"You can't take the \"{object}\"."
+	else:
+		error = f"You can't take nothing."
+	return error
