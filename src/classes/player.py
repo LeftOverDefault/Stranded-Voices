@@ -38,7 +38,7 @@ class Player:
 			user_input = input("🮥🮥🮥 ")
 			self.previous_input = user_input
 			user_input = user_input.lower()
-			prompts = ["go", "use", "exit", "interact", "drop", "take", "place"]
+			prompts = ["go", "interact", "take", "drop", "place", "remove", "exit"]
 			try:
 				command, args = user_input.split(" ")
 			except:
@@ -74,6 +74,8 @@ class Player:
 					self.previous_error = InteractionError(self)
 					self.last_interaction = args
 					self.InteractPrompt()
+			elif command == "take":
+				pass
 			elif command == "place":
 				if args != None:
 					PlacementHandler(self, args)
@@ -83,6 +85,8 @@ class Player:
 					self.previous_error = PlaceObjectError(self, args)
 					GameScreen(self)
 					self.Prompt()
+			elif command == "remove":
+				pass
 			elif command == "exit":
 				sys.exit()
 		else:
