@@ -34,3 +34,11 @@ def PlaceObjectError(player, object):
 def PlaceLocationError(player, object):
 	error = f"There is nowhere to place the \"{object}\"."
 	return error
+
+def NotInInventoryError(player, object):
+	error = f"There is no \"{object}\" in your inventory."
+	return error
+
+def InventorySpaceError(player):
+	error = f"There is not enough space in your inventory for that."
+	return error

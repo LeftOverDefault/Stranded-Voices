@@ -17,6 +17,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+        "placed_objects": [],
 		"entities": []
 	},
 	"shield_deployer_chamber_l": {
@@ -36,6 +37,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+        "placed_objects": [],
 		"entities": [],
 	},
 	"shield_deployer_chamber_r": {
@@ -55,10 +57,8 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+        "placed_objects": [],
 		"entities": [],
-		
-		
-        
 	},
 	"recreation_room": {
 		"name": "Rec Room",
@@ -77,6 +77,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+        "placed_objects": [],
 		"entities": [],
 		
 		
@@ -99,6 +100,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 		
 		
@@ -121,10 +123,8 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
-		
-		
-		
 	},
 	"crew_quarters_l": {
 		"name": "Crew Quarters (L)",
@@ -143,10 +143,8 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": ["jason"],
-		
-		
-		
 	},
 	"droid_hold_l": {
 		"name": "Droid Hold (L)",

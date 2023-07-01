@@ -10,6 +10,7 @@ from src.scripts.handlers.movement_handler import Move
 from src.scripts.handlers.npc_dialogue_handler import DialogueHandler
 from src.scripts.handlers.object_placement_handler import PlacementHandler
 
+
 class Player:
 	def __init__(self) -> None:
 		self.current_location = None
