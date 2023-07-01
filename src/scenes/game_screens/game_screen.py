@@ -34,7 +34,6 @@ def GameScreen(player):
 		examination_line_1, examination_line_2 = "None", "None"
 	else:
 		examination_line_1, examination_line_2 = location_examination.split("\l")
-
 	
 	object_descriptions = ["", "", ""]
 	for i in range(len(player.current_world[player.current_location]["objects"])):
@@ -51,8 +50,6 @@ def GameScreen(player):
 	inventory = ["", "", "", "", "", "", "", "", "", "", "", "", ""]
 	for i in range(len(player.inventory)):
 		inventory[i] = misc_objects[player.inventory[i]]["name"]
-
-
 
 	os.system("clear")
 	print(len("                                    "))
