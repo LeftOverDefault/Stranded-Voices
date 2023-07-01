@@ -52,7 +52,6 @@ def TitleScreenSelections(player, dlcs):
     if user_input == "play":
         player.current_location = "crew_quarters_l"
         player.current_world = world_1
-        player.current_world_name = world_name
         GameScreen(player)
     elif user_input == "help":
         HelpScreen(player, dlcs, TitleScreen)

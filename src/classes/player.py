@@ -17,7 +17,6 @@ class Player:
 	def __init__(self) -> None:
 		self.current_location = None
 		self.current_world = None
-		self.current_world_name = None
 		self.hp = 100
 		self.alive = True
 		self.inventory = []
@@ -36,7 +35,6 @@ class Player:
 	def Prompt(self):
 		CheckPlayerStatus(self)
 		CheckGameStatus(self)
-
 		if self.alive != False:
 			user_input = input("🮥🮥🮥 ")
 			self.previous_input = user_input
@@ -97,7 +95,7 @@ class Player:
 				sys.exit()
 		else:
 			self.DeathSequence()
-	
+
 
 	def InteractPrompt(self):
 		CheckPlayerStatus(self)

@@ -6,8 +6,11 @@ from dlc.english_lover.english_lover import EnglishLover
 from dlc.redemption.redemption import Redemption
 from dlc.xeon.xeon import Xeon
 
+from src.worlds.world_1 import world_1
+
 from src.classes.player import Player
 from src.scenes.ui_screens.title_screen import TitleScreen
+from src.scenes.game_screens.game_screen import GameScreen
 from src.utils.colors import *
 from src.utils.constants import *
 
@@ -33,4 +36,7 @@ class Main:
 
 	def run(self) -> None:
 		print(f"{WHITE}{BLACK_BG}")
-		TitleScreen(self.player, self.dlcs)
+		self.player.current_world = world_1
+		self.player.current_location = "crew_quarters_l"
+		GameScreen(self.player)
+		# TitleScreen(self.player, self.dlcs)
