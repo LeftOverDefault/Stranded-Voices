@@ -52,7 +52,6 @@ def GameScreen(player):
 		inventory[i] = misc_objects[player.inventory[i]]["name"]
 
 	os.system("clear")
-	print(len("                                    "))
 	print(f"        ┏━━━━━━━━━━━━━━┓        ┏━━━━━━━━━━━━━━┓        ┏━━━━━━━━━━━━━━┓        ┏━━━━━━━━━━━━━━┓")
 	print(f"┏━━━━━━━┫  {CYAN}[ PUREYA ]{WHITE}  ┣━━━━━━━━┫ {GREEN}[HP] {player.hp}/100{WHITE} ┣━━━━━━━━┫ {RED}[ COMMS ] --{WHITE} ┣━━━━━━━━┫ {BLUE}[ SETTINGS ]{WHITE} ┣━━━[ {YELLOW}TASUKU{WHITE} ]━━━┓")
 	print(f"┃       ┗━━━━━━━━━━━━━━┛        ┗━━━━━━━━━━━━━━┛        ┗━━━━━━━━━━━━━━┛        ┗━━━━━━━━━━━━━━┫                ┃")

@@ -144,7 +144,7 @@ world_1 = {
 		},
 		"objects": [],
 		"placed_objects": [],
-		"entities": ["jason"],
+		"entities": [],
 	},
 	"droid_hold_l": {
 		"name": "Droid Hold (L)",
