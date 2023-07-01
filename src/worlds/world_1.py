@@ -17,7 +17,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
-        "placed_objects": [],
+		"placed_objects": [],
 		"entities": []
 	},
 	"shield_deployer_chamber_l": {
@@ -37,7 +37,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
-        "placed_objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"shield_deployer_chamber_r": {
@@ -57,7 +57,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
-        "placed_objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"recreation_room": {
@@ -77,11 +77,11 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
-        "placed_objects": [],
+		"placed_objects": [],
 		"entities": [],
 		
 		
-        
+		
 	},
 	"hydroponics_room": {
 		"name": "Hydroponics Room",
@@ -104,7 +104,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"storage_room": {
 		"name": "Storage Room",
@@ -320,7 +320,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"training_room": {
 		"name": "Training Room",
@@ -342,7 +342,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"secondary_bridge": {
 		"name": "Secondary Bridge",
@@ -364,7 +364,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"fueling_bay_l": {
 		"name": "Fueling Bay (L)",
@@ -386,7 +386,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"turret_control_l": {
 		"name": "Turret Control L",
@@ -408,7 +408,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"engine_room_l": {
 		"name": "Engine Room (L)",
@@ -430,7 +430,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"fueling_bay_r": {
 		"name": "Fueling Bay (R)",
@@ -453,7 +453,7 @@ world_1 = {
 		,
 		
 		
-        
+		
 	},
 	"turret_control_r": {
 		"name": "Turret Control R",
@@ -476,7 +476,7 @@ world_1 = {
 		,
 		
 		
-        
+		
 	},
 	"engine_room_r": {
 		"name": "Engine Room (R)",
@@ -499,7 +499,7 @@ world_1 = {
 		,
 		
 		
-        
+		
 	},
 	"hyperdrive_generator": {
 		"name": "Hyperdrive Generator Room",
@@ -522,7 +522,7 @@ world_1 = {
 		,
 		
 		
-        
+		
 	},
 	"hyperdrive_motivator": {
 		"name": "Hyperdrive Motivator Room",
@@ -545,7 +545,7 @@ world_1 = {
 		,
 		
 		
-        
+		
 	},
 	"secondary_hyperdrive_unit_l": {
 		"name": "Secondary Hyperdrive Unit Room (L)",
@@ -568,7 +568,7 @@ world_1 = {
 		,
 		
 		
-        
+		
 	},
 	"secondary_hyperdrive_unit_r": {
 		"name": "Secondary Hyperdrive Unit Room (R)",
@@ -591,7 +591,7 @@ world_1 = {
 		,
 		
 		
-        
+		
 	},
 	"recreation_room_balcony": {
 		"name": "Recreation Room Balcony",
@@ -614,7 +614,7 @@ world_1 = {
 		,
 		
 		
-        
+		
 	},
 	"captains_station": {
 		"name": "Captain's Station",
@@ -637,7 +637,7 @@ world_1 = {
 		,
 		
 		
-        
+		
 	},
 	"conference_room": {
 		"name": "Conference Room",
@@ -659,7 +659,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"computer_control_room": {
 		"name": "Computer Control Room",
@@ -681,7 +681,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"main_bridge": {
 		"name": "Main Bridge",
@@ -703,7 +703,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"strategy_room": {
 		"name": "Strategy Room",
@@ -725,7 +725,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"locker_room_l": {
 		"name": "Locker Room (L)",
@@ -747,7 +747,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"officers_quarters_l": {
 		"name": "Officer's Quarters (L)",
@@ -769,7 +769,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"locker_room_r": {
 		"name": "Locker Room (R)",
@@ -791,7 +791,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"officers_quarters_r": {
 		"name": "Officer's Quarters (R)",
@@ -813,7 +813,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"laboratory": {
 		"name": "Laboratory",
@@ -835,7 +835,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"deck": {
 		"name": "Deck",
@@ -857,7 +857,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"brig": {
 		"name": "Brig",
@@ -879,7 +879,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"weapons_storage": {
 		"name": "Weapons Storage",
@@ -901,7 +901,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"medbay": {
 		"name": "Medbay",
@@ -923,7 +923,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"primary_generator": {
 		"name": "Primary Generator Room",
@@ -945,7 +945,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"engine_platform_l": {
 		"name": "Engine Platform (L)",
@@ -967,7 +967,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"turret_maintenance_room_l": {
 		"name": "Turret Maintenance Room (L)",
@@ -989,7 +989,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"engine_platform_r": {
 		"name": "Engine Platform (R)",
@@ -1011,7 +1011,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"turret_maintenance_room_r": {
 		"name": "Turret Maintenance Room (R)",
@@ -1033,7 +1033,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"engineering_room": {
 		"name": "Engineering Room",
@@ -1055,7 +1055,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"computer_core_chamber": {
 		"name": "Computer Core Chamber",
@@ -1077,7 +1077,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"shield_generator_maintenance_room": {
 		"name": "Shield Generator Maintenance",
@@ -1099,7 +1099,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"miscellaneous_storage_room": {
 		"name": "Miscellaneous Storage Room",
@@ -1121,7 +1121,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"landing_gear_maintenance_room": {
 		"name": "Landing Gear Maintenance Room",
@@ -1143,7 +1143,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"repulser_lift_maintenance_room": {
 		"name": "Repulser Lift Maintenance",
@@ -1165,7 +1165,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"cargo_bay_l_1": {
 		"name": "Cargo Bay (L) [1]",
@@ -1187,7 +1187,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"cargo_bay_l_2": {
 		"name": "Cargo Bay (L) [2]",
@@ -1209,7 +1209,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"cargo_bay_r_1": {
 		"name": "Cargo Bay (R) [1]",
@@ -1231,7 +1231,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"cargo_bay_r_2": {
 		"name": "Cargo Bay (R) [2]",
@@ -1253,7 +1253,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"dry_storage_room": {
 		"name": "Dry Storage Room",
@@ -1275,7 +1275,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"cold_storage_room": {
 		"name": "Cold Storage Room",
@@ -1297,7 +1297,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"spacecraft_storage_room_1": {
 		"name": "Spacecraft Storage [1]",
@@ -1319,7 +1319,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"spacecraft_storage_room_2": {
 		"name": "Spacecraft Storage [2]",
@@ -1341,7 +1341,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"airlock_chamber": {
 		"name": "Airlock Chamber",
@@ -1363,7 +1363,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"vehicle_storage_bay": {
 		"name": "Vehicle Storage Bay",
@@ -1385,7 +1385,7 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 	"engine_mechanics_room_l": {
 		"name": "Engine Mechanics Room (L)",
@@ -1517,6 +1517,6 @@ world_1 = {
 		"entities": [],
 		
 		
-        
+		
 	},
 }

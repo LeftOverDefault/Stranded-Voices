@@ -31,12 +31,12 @@ def PlaceObjectError(player, object):
 		error = f"You can't place nothing."
 	return error
 
-def PlaceLocationError(player, object):
-	error = f"There is nowhere to place the \"{object}\"."
-	return error
-
 def NotInInventoryError(player, object):
 	error = f"There is no \"{object}\" in your inventory."
+	return error
+
+def NotInLocationError(player, object):
+	error = f"There is no \"{object}\" here."
 	return error
 
 def InventorySpaceError(player):
@@ -55,4 +55,8 @@ def TakeObjectError(player, object):
 		error = f"You can't take the \"{object}\"."
 	else:
 		error = f"You can't take nothing."
+	return error
+
+def LocationSpaceError(player, object):
+	error = f"There isn't enough space to place the \"{object}\"."
 	return error

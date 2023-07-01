@@ -20,7 +20,8 @@ class Player:
 		self.current_world_name = None
 		self.hp = 100
 		self.alive = True
-		self.inventory = []
+		self.inventory = ["circuit_board"]
+		self.inventory_size = 12
 		self.helmet_points = 0
 		self.chestplate_points = 0
 		self.leggings_points = 0
@@ -49,25 +50,20 @@ class Player:
 			while command not in prompts:
 				self.previous_error = PromptError(self, user_input)
 				GameScreen(self)
-				self.Prompt()
 			if command == "go":
 				if args != None:
 					move = Move(self, args)
 					if move == "direction_error":
 						self.previous_error = DirectionError(self, args)
 						GameScreen(self)
-						self.Prompt()
 					elif move == "location_error":
 						self.previous_error = LocationError(self, args)
 						GameScreen(self)
-						self.Prompt()
 					else:
 						GameScreen(self)
-						self.Prompt()
 				else:
 					self.previous_error = DirectionError(self, args)
 					GameScreen(self)
-					self.Prompt()
 			elif command == "interact":
 				if args != None:
 					self.last_interaction = args
@@ -80,29 +76,23 @@ class Player:
 				if args != None:
 					TakeHandler(self, args)
 					GameScreen(self)
-					self.Prompt()
 				else:
 					self.previous_error = TakeObjectError(self, args)
 					GameScreen(self)
-					self.Prompt()
 			elif command == "place":
 				if args != None:
 					PlacementHandler(self, args)
 					GameScreen(self)
-					self.Prompt()
 				else:
 					self.previous_error = PlaceObjectError(self, args)
 					GameScreen(self)
-					self.Prompt()
 			elif command == "remove":
 				if args != None:
 					RemovalHandler(self, args)
 					GameScreen(self)
-					self.Prompt()
 				else:
 					self.previous_error = RemoveObjectError(self, args)
 					GameScreen(self)
-					self.Prompt()
 			elif command == "exit":
 				sys.exit()
 		else:
@@ -115,7 +105,6 @@ class Player:
 			while self.last_interaction not in entities.keys():
 				self.previous_error = InteractionError(self)
 				GameScreen(self)
-				self.Prompt()
 			DialogueHandler(self, self.last_interaction)
 
 
