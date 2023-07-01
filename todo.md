@@ -1,5 +1,5 @@
 
-(A) General {c}
+(A) General
     make try-except code more efficient in game_screen.py {cm:2023-07-01}
     make an actual [story](game_story.md) to beat the game.
     finish entering and editing each room description
