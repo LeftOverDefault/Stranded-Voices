@@ -143,7 +143,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
-		"placed_objects": [],
+		"placed_objects": ["fuel_alternator"],
 		"entities": [],
 	},
 	"droid_hold_l": {
@@ -163,10 +163,8 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
-		"entities": [],
-		
-		
-		
+        "placed_objects": [],
+		"entities": []
 	},
 	"escape_pods_l": {
 		"name": "Escape Pods (L)",
@@ -185,10 +183,8 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
-		
-		
-		
 	},
 	"crew_quarters_r": {
 		"name": "Crew Quarters (R)",
@@ -207,6 +203,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 		
 		
@@ -229,6 +226,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 		
 		
@@ -251,6 +249,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 		
 		
@@ -273,6 +272,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 		
 		
@@ -295,6 +295,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 		
 		
@@ -317,6 +318,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 		
 		
@@ -339,6 +341,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 		
 		
@@ -361,6 +364,7 @@ world_1 = {
 			"down": "spacecraft_storage_room_1"
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 		
 		
@@ -383,6 +387,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 		
 		
@@ -405,6 +410,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 		
 		
@@ -427,6 +433,7 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 		
 		
@@ -449,8 +456,8 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": []
-		,
 		
 		
 		
@@ -472,12 +479,14 @@ world_1 = {
 			"down": None
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": []
-		,
 		
 		
 		
 	},
+
+
 	"engine_room_r": {
 		"name": "Engine Room (R)",
 		"description": None,

@@ -4,13 +4,14 @@ import sys
 from src.entities.entities import entities
 from src.scenes.game_screens.game_screen import GameScreen
 from src.scripts.checks.check_game_status import CheckGameStatus
-from src.utils.errors import DirectionError, InteractionError, LocationError, PromptError, PlaceObjectError, RemoveObjectError, TakeObjectError
+from src.scripts.checks.check_object_location_status import CheckObjectStatus
 from src.scripts.checks.check_player_status import CheckPlayerStatus
 from src.scripts.handlers.movement_handler import Move
 from src.scripts.handlers.npc_dialogue_handler import DialogueHandler
 from src.scripts.handlers.object_placement_handler import PlacementHandler
 from src.scripts.handlers.object_remove_handler import RemovalHandler
 from src.scripts.handlers.object_take_handler import TakeHandler
+from src.utils.errors import DirectionError, InteractionError, LocationError, PromptError, PlaceObjectError, RemoveObjectError, TakeObjectError
 
 
 class Player:
@@ -21,10 +22,6 @@ class Player:
 		self.alive = True
 		self.inventory = []
 		self.inventory_size = 13
-		self.helmet_points = 0
-		self.chestplate_points = 0
-		self.leggings_points = 0
-		self.boots_points = 0
 		self.previous_input = ""
 		self.previous_error = ""
 		self.last_interaction = ""
@@ -33,8 +30,9 @@ class Player:
 
 
 	def Prompt(self):
-		CheckPlayerStatus(self)
 		CheckGameStatus(self)
+		CheckObjectStatus(self)
+		CheckPlayerStatus(self)
 		if self.alive != False:
 			user_input = input("🮥🮥🮥 ")
 			self.previous_input = user_input
