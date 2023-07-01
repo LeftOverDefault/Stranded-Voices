@@ -60,3 +60,7 @@ def TakeObjectError(player, object):
 def LocationSpaceError(player, object):
 	error = f"There isn't enough space to place the \"{object}\"."
 	return error
+
+def ObjectNotExistsError(player, object):
+	error = f"There is no object named \"{object}\""
+	return error

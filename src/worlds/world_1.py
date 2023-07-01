@@ -128,7 +128,7 @@ world_1 = {
 	},
 	"crew_quarters_l": {
 		"name": "Crew Quarters (L)",
-		"description": "The cluttered room once served as a home for the ship's crew.\lThe air is tinged with a mix of stale air and hints of metallic oils.\lStacked against the walls are a few personal storage compartments.\lThe sound of distant conversations still haunt the air.",
+		"description": "Stepping into the Crew Quarters, you're greeted by a scene of chaos frozen in time.\lTorn fabric hangs from the damaged bunks, like tattered dreams of rest.\lPersonal belongings are strewn across the floor, abandoned in the ship's final moments.\lThe air is heavy with a mix of mustiness and nostalgia.",
 		"examination": "Personal belongings are scattered about the floor.\lTattered posters and photographs adorn the walls.",
 		"directions": {
 			"north": "droid_hold_l",

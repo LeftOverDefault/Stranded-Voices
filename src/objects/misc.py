@@ -1,17 +1,17 @@
 misc_objects = {
 	"fuel_alternator": {
 		"name": "Fuel Alternator",
-		"description": "",
+		"description": "fuel alternator description",
         "place_locations": []
 	},
 	"fuse": {
 		"name": "Fuse",
-		"description": "",
+		"description": "fuse description",
         "place_locations": []
 	},
     "circuit_board": {
         "name": "Circuit Board",
-        "description": "",
+        "description": "circuit board description",
         "place_locations": []
 	},
     "voltage_regulator": {

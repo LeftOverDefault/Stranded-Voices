@@ -20,8 +20,8 @@ class Player:
 		self.current_world_name = None
 		self.hp = 100
 		self.alive = True
-		self.inventory = ["circuit_board"]
-		self.inventory_size = 12
+		self.inventory = []
+		self.inventory_size = 13
 		self.helmet_points = 0
 		self.chestplate_points = 0
 		self.leggings_points = 0

@@ -1,5 +1,3 @@
-
-"""
 Shield Generator Hold:
 You step into the Shield Generator Hold, a dimly lit chamber bathed in a pulsating blue glow.
 Cracked energy conduits snake along the walls, emitting sparks that dance in the air.
@@ -21,7 +19,7 @@ The distant sound of metal clanking echoes through the stillness.
 Crew Quarters:
 Stepping into the Crew Quarters, you're greeted by a scene of chaos frozen in time.
 Torn fabric hangs from the damaged bunks, like tattered dreams of rest.
-Personal belongings are strewn across the floor—letters, photographs, and trinkets abandoned in the ship's final moments.
+Personal belongings are strewn across the floor, abandoned in the ship's final moments.
 The air is heavy with a mix of mustiness and nostalgia.
 
 Rec Room:
@@ -338,7 +336,3 @@ Engineering Room:
 The Engineering Room is a critical area where the ship's engineering systems are monitored and controlled.
 It houses complex machinery, control panels, and computer systems that regulate various ship systems, including power distribution, environmental control, and auxiliary systems.
 Engineers and technicians use this room to oversee and maintain the ship's overall functionality.
-
-
-
-"""
