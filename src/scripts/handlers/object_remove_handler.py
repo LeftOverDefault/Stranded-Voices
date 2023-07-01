@@ -23,4 +23,4 @@ def RemovalHandler(player, object):
 			else:
 				player.current_world[player.current_location]["placed_objects"].remove(u_object)
 				player.inventory.append(u_object)
-				player.previous_error = f"You took the \"{object_name}\"."
+				player.previous_error = f"You removed the \"{object_name}\"."

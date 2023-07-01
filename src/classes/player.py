@@ -8,10 +8,11 @@ from src.scripts.checks.check_object_location_status import CheckObjectStatus
 from src.scripts.checks.check_player_status import CheckPlayerStatus
 from src.scripts.handlers.movement_handler import Move
 from src.scripts.handlers.npc_dialogue_handler import DialogueHandler
+from src.scripts.handlers.object_drop_handler import DropHandler
 from src.scripts.handlers.object_placement_handler import PlacementHandler
 from src.scripts.handlers.object_remove_handler import RemovalHandler
 from src.scripts.handlers.object_take_handler import TakeHandler
-from src.utils.errors import DirectionError, InteractionError, LocationError, PromptError, PlaceObjectError, RemoveObjectError, TakeObjectError
+from src.utils.errors import DirectionError, InteractionError, LocationError, PromptError, PlaceObjectError, RemoveObjectError, TakeObjectError, DropObjectError
 
 
 class Player:
@@ -74,6 +75,13 @@ class Player:
 					GameScreen(self)
 				else:
 					self.previous_error = TakeObjectError(self, args)
+					GameScreen(self)
+			elif command == "drop":
+				if args != None:
+					DropHandler(self, args)
+					GameScreen(self)
+				else:
+					self.previous_error = DropObjectError(self, args)
 					GameScreen(self)
 			elif command == "place":
 				if args != None:

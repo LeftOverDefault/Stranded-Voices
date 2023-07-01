@@ -77,3 +77,7 @@ def LocationSpaceError(player, object):
 def ObjectNotExistsError(player, object):
 	error = f"There is no object named \"{object}\""
 	return error
+
+def DropObjectError(player, object):
+	error = f"You can't drop nothing."
+	return error
