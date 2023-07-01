@@ -4,3 +4,5 @@
 (B) implement take, drop, and remove commands for the player
 
 (C) make an actual [story](game_story.md) to beat the game.
+
+(D) finish entering and editing each room description
