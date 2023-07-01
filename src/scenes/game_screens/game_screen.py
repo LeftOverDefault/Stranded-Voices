@@ -9,6 +9,16 @@ def GameScreen(player):
 	location_name = player.current_world[player.current_location]["name"]
 	location_examination = player.current_world[player.current_location]["examination"]
 
+	room_description_line_1, room_description_line_2, room_description_line_3, room_description_line_4 = player.current_world[player.current_location]["description"].split("\l")
+	
+	object_descriptions = ["", "", ""]
+	for i in range(len(player.current_world[player.current_location]["objects"])):
+		object_descriptions[i] = misc_objects[player.current_world[player.current_location]["objects"][i]]["description"]
+	
+	entity_descriptions = ["", ""]
+	for i in range(len(player.current_world[player.current_location]["entities"])):
+		entity_descriptions[i] = entities[player.current_world[player.current_location]["entities"][i]]["description"]
+
 	direction_names = {
 		"north": "None",
 		"east": "None",
@@ -28,20 +38,10 @@ def GameScreen(player):
 		else:
 			direction_names[direction] = player.current_world[player.current_world[player.current_location]["directions"][direction]]["name"]
 
-	room_description_line_1, room_description_line_2, room_description_line_3, room_description_line_4 = player.current_world[player.current_location]["description"].split("\l")
-
 	if location_examination == None:
 		examination_line_1, examination_line_2 = "None", "None"
 	else:
 		examination_line_1, examination_line_2 = location_examination.split("\l")
-	
-	object_descriptions = ["", "", ""]
-	for i in range(len(player.current_world[player.current_location]["objects"])):
-		object_descriptions[i] = misc_objects[player.current_world[player.current_location]["objects"][i]]["description"]
-	
-	entity_descriptions = ["", ""]
-	for i in range(len(player.current_world[player.current_location]["entities"])):
-		entity_descriptions[i] = entities[player.current_world[player.current_location]["entities"][i]]["description"]
 
 	parts_descriptions = ["", "", ""]
 	for i in range(len(player.current_world[player.current_location]["placed_objects"])):
