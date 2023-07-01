@@ -23,3 +23,14 @@ def InteractionError(player):
 def DialogueError(player):
 	error = f"You have to choose a way to respond to {player.last_interaction}."
 	return error
+
+def PlaceObjectError(player, object):
+	if object != None:
+		error = f"You can't place \"{object}\"."
+	else:
+		error = f"You can't place nothing."
+	return error
+
+def PlaceLocationError(player, object):
+	error = f"There is nowhere to place the \"{object}\"."
+	return error

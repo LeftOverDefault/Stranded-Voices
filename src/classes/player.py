@@ -4,11 +4,11 @@ import sys
 from src.entities.entities import entities
 from src.scenes.game_screens.game_screen import GameScreen
 from src.scripts.checks.check_game_status import CheckGameStatus
-from src.scripts.checks.check_errors import DirectionError, InteractionError, LocationError, PromptError
+from src.scripts.checks.check_errors import DirectionError, InteractionError, LocationError, PromptError, PlaceObjectError
 from src.scripts.checks.check_player_status import CheckPlayerStatus
-from src.scripts.checks.check_puzzle_status import CheckPuzzles, UpdatePuzzles
 from src.scripts.handlers.movement_handler import Move
 from src.scripts.handlers.npc_dialogue_handler import DialogueHandler
+from src.scripts.handlers.object_placement_handler import PlacementHandler
 
 class Player:
 	def __init__(self) -> None:
@@ -17,6 +17,7 @@ class Player:
 		self.current_world_name = None
 		self.hp = 100
 		self.alive = True
+		self.inventory = []
 		self.helmet_points = 0
 		self.chestplate_points = 0
 		self.leggings_points = 0
@@ -26,21 +27,17 @@ class Player:
 		self.last_interaction = ""
 		self.dialogue_index = "0"
 		self.comms_established = False
-		self.intelligence = 1
-		self.puzzles_solved = 0
 
 
 	def Prompt(self):
 		CheckPlayerStatus(self)
 		CheckGameStatus(self)
-		CheckPuzzles(self)
-		UpdatePuzzles(self)
 
 		if self.alive != False:
 			user_input = input("🮥🮥🮥 ")
 			self.previous_input = user_input
 			user_input = user_input.lower()
-			prompts = ["go", "use", "sneak", "exit", "interact"]
+			prompts = ["go", "use", "exit", "interact", "drop", "take", "place"]
 			try:
 				command, args = user_input.split(" ")
 			except:
@@ -76,6 +73,15 @@ class Player:
 					self.previous_error = InteractionError(self)
 					self.last_interaction = args
 					self.InteractPrompt()
+			elif command == "place":
+				if args != None:
+					PlacementHandler(self, args)
+					GameScreen(self)
+					self.Prompt()
+				else:
+					self.previous_error = PlaceObjectError(self, args)
+					GameScreen(self)
+					self.Prompt()
 			elif command == "exit":
 				sys.exit()
 		else:
