@@ -12,13 +12,22 @@
 """
 
 misc_objects = {
-	"fuse": {
+	"fuse_1": {
 		"name": "Fuse",
 		"description": "",
 		"found_location_description": "",
 		"correct_description": "",
 		"found_location": "",
-		"correct_location": "engine_room_r",
+		"correct_location": "main_bridge",
+		"special_object": True
+	},
+    "fuse_2": {
+		"name": "Fuse",
+		"description": "",
+		"found_location_description": "",
+		"correct_description": "",
+		"found_location": "",
+		"correct_location": "",
 		"special_object": True
 	},
 	"circuit_board": {
@@ -45,7 +54,7 @@ misc_objects = {
 		"found_location_description": "",
 		"correct_description": "",
 		"found_location": "",
-		"correct_location": "main_bridge",
+		"correct_location": "engine_room_r",
 		"special_object": True
 	},
 	"nanofiber_plasma_conduit": {
