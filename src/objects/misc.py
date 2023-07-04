@@ -12,22 +12,13 @@
 """
 
 misc_objects = {
-	"fuse_1": {
+	"fuse": {
 		"name": "Fuse",
 		"description": "",
 		"found_location_description": "",
 		"correct_description": "",
 		"found_location": "",
 		"correct_location": "main_bridge",
-		"special_object": True
-	},
-    "fuse_2": {
-		"name": "Fuse",
-		"description": "",
-		"found_location_description": "",
-		"correct_description": "",
-		"found_location": "",
-		"correct_location": "",
 		"special_object": True
 	},
 	"circuit_board": {

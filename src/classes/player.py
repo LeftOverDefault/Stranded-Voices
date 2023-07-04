@@ -6,7 +6,7 @@ from src.scenes.game_screens.game_screen import GameScreen
 from src.scripts.checks.check_game_status import CheckGameStatus
 from src.scripts.checks.check_object_location_status import CheckObjectStatus
 from src.scripts.checks.check_player_status import CheckPlayerStatus
-from src.scripts.handlers.movement_handler import Move
+from src.scripts.handlers.movement_handler import MovementHandler
 from src.scripts.handlers.npc_dialogue_handler import DialogueHandler
 from src.scripts.handlers.object_drop_handler import DropHandler
 from src.scripts.handlers.object_placement_handler import PlacementHandler
@@ -29,6 +29,7 @@ class Player:
         self.dialogue_index = "0"
         self.comms_established = False
 
+
     def Prompt(self):
         CheckGameStatus(self)
         CheckObjectStatus(self)
@@ -48,15 +49,8 @@ class Player:
                 GameScreen(self)
             if command == "go":
                 if args != None:
-                    move = Move(self, args)
-                    if move == "direction_error":
-                        self.previous_error = DirectionError(self, args)
-                        GameScreen(self)
-                    elif move == "location_error":
-                        self.previous_error = LocationError(self, args)
-                        GameScreen(self)
-                    else:
-                        GameScreen(self)
+                    self.last_interaction = args
+                    MovementHandler(self, args)
                 else:
                     self.previous_error = DirectionError(self, args)
                     GameScreen(self)
@@ -101,6 +95,7 @@ class Player:
         else:
             self.DeathSequence()
 
+
     def InteractPrompt(self):
         CheckPlayerStatus(self)
         if self.alive != False:
@@ -108,6 +103,7 @@ class Player:
                 self.previous_error = InteractionError(self)
                 GameScreen(self)
             DialogueHandler(self, self.last_interaction)
+
 
     def DeathSequence(self):
         pass
