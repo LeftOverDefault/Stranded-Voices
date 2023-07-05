@@ -9,10 +9,10 @@ def MovementHandler(player, direction):
 		GameScreen(player)
 	if direction in ["north-east", "north-west", "south-east", "south-west"]:
 		direction = ConvertDashUnderscore(direction)
-	if player.current_world[player.current_location]["directions"][direction] == None:
+	if player.current_world[player.current_location]["directions"][direction]["location"] == None:
 		player.previous_error = LocationError(player, direction)
 		GameScreen(player)
 	old_location = player.current_world[player.current_location]["name"]
-	player.current_location = player.current_world[player.current_location]["directions"][direction]
+	player.current_location = player.current_world[player.current_location]["directions"][direction]["location"]
 	MovementScreen(player, direction, old_location)
 	GameScreen(player)

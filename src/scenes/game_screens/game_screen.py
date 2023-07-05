@@ -32,10 +32,10 @@ def GameScreen(player):
 	}
 
 	for direction in player.current_world[player.current_location]["directions"]:
-		if player.current_world[player.current_location]["directions"][direction] == None:
+		if player.current_world[player.current_location]["directions"][direction]["location"] == None:
 			direction_names[direction] = "None"
 		else:
-			direction_names[direction] = player.current_world[player.current_world[player.current_location]["directions"][direction]]["name"]
+			direction_names[direction] = player.current_world[player.current_world[player.current_location]["directions"][direction]["location"]]["name"]
 
 	parts_descriptions = ["", "", ""]
 	for i in range(len(player.current_world[player.current_location]["placed_objects"])):
@@ -50,7 +50,7 @@ def GameScreen(player):
 	for i in range(len(player.inventory)):
 		inventory[i] = misc_objects[player.inventory[i]]["name"]
 
-	os.system("clear")
+	# os.system("clear")
 	print(fr"        ┏━━━━━━━━━━━━━━┓        ┏━━━━━━━━━━━━━━┓        ┏━━━━━━━━━━━━━━┓        ┏━━━━━━━━━━━━━━┓                 ")
 	print(fr"┏━━━━━━━┫  {CYAN}[ PUREYA ]{WHITE}  ┣━━━━━━━━┫ {GREEN}[HP] {player.hp}/100{WHITE} ┣━━━━━━━━┫ {RED}[ COMMS ] --{WHITE} ┣━━━━━━━━┫ {BLUE}[ SETTINGS ]{WHITE} ┣━━━[ {YELLOW}TASUKU{WHITE} ]━━━┓")
 	print(fr"┃       ┗━━━━━━━━━━━━━━┛        ┗━━━━━━━━━━━━━━┛        ┗━━━━━━━━━━━━━━┛        ┗━━━━━━━━━━━━━━┫                ┃")

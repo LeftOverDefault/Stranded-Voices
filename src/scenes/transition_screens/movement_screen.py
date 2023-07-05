@@ -6,8 +6,8 @@ from src.objects.misc import misc_objects
 from src.utils.colors import *
 
 def MovementScreen(player, direction, old_location):
+	print(player.current_world[player.current_location])
 	location_name = player.current_world[player.current_location]["name"]
-	previous_location_name = old_location
 
 	inventory = ["", "", "", "", "", "", "", "", "", "", "", "", ""]
 	for i in range(len(player.inventory)):
