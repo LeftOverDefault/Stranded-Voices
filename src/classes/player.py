@@ -21,12 +21,13 @@ class Player:
         self.current_world = None
         self.hp = 100
         self.alive = True
-        self.inventory = []
+        self.inventory = ["fuse"]
         self.inventory_size = 13
         self.previous_input = ""
         self.previous_error = ""
         self.last_interaction = ""
         self.dialogue_index = "0"
+        self.comms = "--"
         self.comms_established = False
 
 

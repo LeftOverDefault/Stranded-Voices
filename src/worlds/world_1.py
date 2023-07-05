@@ -6,15 +6,15 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": "shield_deployer_chamber_r",
@@ -26,11 +26,11 @@ world_1 = {
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": "shield_deployer_chamber_l",
@@ -38,11 +38,11 @@ world_1 = {
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 		},
 		"objects": [],
@@ -55,15 +55,15 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": "shield_generator_chamber",
@@ -71,27 +71,27 @@ world_1 = {
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 		},
 		"objects": [],
@@ -104,31 +104,31 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": "shield_generator_chamber",
@@ -136,11 +136,11 @@ world_1 = {
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 		},
 		"objects": [],
@@ -157,11 +157,11 @@ world_1 = {
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": "crew_quarters_r",
@@ -189,7 +189,7 @@ world_1 = {
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 		},
 		"objects": [],
@@ -203,36 +203,39 @@ world_1 = {
 			"north": "recreation_room",
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "storage_room",
+			"south": {
+				"location": "storage_room",
+				"move_description": None
+			}, 
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 		},
 		"objects": [],
@@ -245,43 +248,43 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": "hydroponics_room",
-				"move_direction": ""
+				"move_description": ""
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 		},
 		"objects": [],
@@ -298,15 +301,15 @@ world_1 = {
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": "recreation_room",
-				"move_direction": ""
+				"move_description": ""
 			},
 			"south": {
 				"location": "mess_hall",
@@ -314,23 +317,23 @@ world_1 = {
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": "escape_pods_l",
-				"move_direction": ""
+				"move_description": ""
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 		},
 		"objects": [],
@@ -343,40 +346,43 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "crew_quarters_l",
+			"south": {
+				"location": "crew_quarters_l",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 		},
 		"objects": [],
@@ -389,40 +395,43 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "crew_quarters_l",
+			"east": {
+				"location": "crew_quarters_l",
+				"move_description": None
+			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 		},
 		"objects": [],
@@ -433,36 +442,45 @@ world_1 = {
 		"name": "Crew Quarters (R)",
 		"description": "",
 		"directions": {
-			"north": "droid_hold_r",
+			"north": {
+				"location": "droid_hold_r",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "escape_pods_r",
+			"east": {
+				"location": "escape_pods_r",
+				"move_description": None
+			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "recreation_room",
+			"west": {
+				"location": "recreation_room",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
@@ -475,40 +493,43 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "crew_quarters_r",
+			"south": {
+				"location": "crew_quarters_r",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
@@ -521,40 +542,43 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "crew_quarters_r",
+			"west": {
+				"location": "crew_quarters_r",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
@@ -565,36 +589,45 @@ world_1 = {
 		"name": "Mess Hall",
 		"description": "The room is filled with silence, broken by the drip of leaking pipes.\lTables and chairs lie upturned, remnants of the ship's violent descent.\lStale air hangs heavy, carrying the faint scent of spoiled food.\lClouded windows offer a glimpse into the desolate expanse beyond.",
 		"directions": {
-			"north": "crew_quarters_l",
-			"north_east": "recreation_room",
+			"north": {
+				"location": "crew_quarters_l",
+				"move_description": None
+			},
+			"north_east": {
+				"location": "recreation_room",
+				"move_description": None
+			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "galley",
+			"south": {
+				"location": "galley",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
@@ -605,39 +638,45 @@ world_1 = {
 		"name": "Galley",
 		"description": "",
 		"directions": {
-			"north": "mess_hall",
+			"north": {
+				"location": "mess_hall",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "fueling_bay_l",
+			"south": {
+				"location": "fueling_bay_l",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
@@ -648,36 +687,45 @@ world_1 = {
 		"name": "Janitorial Room",
 		"description": "",
 		"directions": {
-			"north": "crew_quarters_r",
+			"north": {
+				"location": "crew_quarters_r",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"north_west": "recreation_room",
+			"north_west": {
+				"location": "recreation_room",
+				"move_description": None
+			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "training_room",
+			"south": {
+				"location": "training_room",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
@@ -688,39 +736,45 @@ world_1 = {
 		"name": "Training Room",
 		"description": "",
 		"directions": {
-			"north": "janitorial_room",
+			"north": {
+				"location": "janitorial_room",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "fueling_bay_r",
+			"south": {
+				"location": "fueling_bay_r",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
@@ -733,32 +787,44 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "fueling_bay_r",
-			"south": "hyperdrive_generator",
+			"east": {
+				"location": "fueling_bay_r",
+				"move_description": None
+			},
+			"south": {
+				"location": "hyperdrive_generator",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "fueling_bay_l",
+			"west": {
+				"location": "fueling_bay_l",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"down": "spacecraft_storage_room_1"
+			"down": {
+				"location": "spacecraft_storage_room_1",
+				"move_description": None
+			},
 		},
 		"objects": [],
 		"placed_objects": [],
@@ -768,33 +834,45 @@ world_1 = {
 		"name": "Fueling Bay (L)",
 		"description": "",
 		"directions": {
-			"north": "galley",
+			"north": {
+				"location": "galley",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "secondary_bridge",
-			"south": "engine_room_l",
+			"east": {
+				"location": "secondary_bridge",
+				"move_description": None
+			},
+			"south": {
+				"location": "engine_room_l",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "turret_control_l",
+			"west": {
+				"location": "turret_control_l",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
@@ -807,40 +885,43 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "fueling_bay_l",
+			"east": {
+				"location": "fueling_bay_l",
+				"move_description": None
+			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
@@ -851,42 +932,45 @@ world_1 = {
 		"name": "Engine Room (L)",
 		"description": "",
 		"directions": {
-			"north": "fueling_bay_l",
+			"north": {
+				"location": "fueling_bay_l",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
@@ -897,41 +981,50 @@ world_1 = {
 		"name": "Fueling Bay (R)",
 		"description": "",
 		"directions": {
-			"north": "training_room",
+			"north": {
+				"location": "training_room",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "turret_control_r",
-			"south": "engine_room_r",
+			"east": {
+				"location": "turret_control_r",
+				"move_description": None
+			},
+			"south": {
+				"location": "engine_room_r",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "secondary_bridge",
+			"west": {
+				"location": "secondary_bridge",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
 		"placed_objects": [],
 		"entities": []
-		
-		
-		
 	},
 	"turret_control_r": {
 		"name": "Turret Control R",
@@ -939,179 +1032,195 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "fueling_bay_r",
+			"west": {
+				"location": "fueling_bay_r",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
 		"placed_objects": [],
 		"entities": []
-		
-		
-		
 	},
-
-
 	"engine_room_r": {
 		"name": "Engine Room (R)",
 		"description": "",
 		"directions": {
-			"north": "fueling_bay_r",
+			"north": {
+				"location": "fueling_bay_r",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+        "placed_objects": [],
 		"entities": []
-		,
 	},
 	"hyperdrive_generator": {
 		"name": "Hyperdrive Generator Room",
 		"description": "",
 		"directions": {
-			"north": "secondary_bridge",
+			"north": {
+				"location": "secondary_bridge",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "hyperdrive_motivator",
+			"south": {
+				"location": "hyperdrive_motivator",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": []
-		,
 	},
 	"hyperdrive_motivator": {
 		"name": "Hyperdrive Motivator Room",
 		"description": "",
 		"directions": {
-			"north": "hyperdrive_generator",
+			"north": {
+				"location": "hyperdrive_generator",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "secondary_hyperdrive_unit_r",
+			"east": {
+				"location": "secondary_hyperdrive_unit_r",
+				"move_description": None
+			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "secondary_hyperdrive_unit_l",
+			"west": {
+				"location": "secondary_hyperdrive_unit_l",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": []
-		,
 	},
 	"secondary_hyperdrive_unit_l": {
 		"name": "Secondary Hyperdrive Unit Room (L)",
@@ -1119,45 +1228,48 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "hyperdrive_motivator",
+			"east": {
+				"location": "hyperdrive_motivator",
+				"move_description": None
+			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": []
-		,
 	},
 	"secondary_hyperdrive_unit_r": {
 		"name": "Secondary Hyperdrive Unit Room (R)",
@@ -1165,79 +1277,97 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "hyperdrive_motivator",
+			"west": {
+				"location": "hyperdrive_motivator",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": []
-		,
 	},
 	"recreation_room_balcony": {
 		"name": "Recreation Room Balcony",
-		"description": "",
+		"description": "\l\l\l",
 		"directions": {
-			"north": "captains_station",
-			"north_east": "conference_room",
-			"north_west": "computer_control_room",
+			"north": {
+				"location": "captains_station",
+				"move_description": ""
+			},
+			"north_east": {
+				"location": "conference_room",
+				"move_description": ""
+			},
+			"north_west": {
+				"location": "computer_control_room",
+				"move_description": ""
+			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "main_bridge",
+			"south": {
+				"location": "main_bridge",
+				"move_description": ""
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"down": "recreation_room"
+			"down": {
+				"location": "recreation_room",
+				"move_description": ""
+			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": []
-		,
 	},
 	"captains_station": {
 		"name": "Captain's Station",
@@ -1245,45 +1375,48 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "recreation_room_balcony",
+			"south": {
+				"location": "recreation_room_balcony",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": []
-		,
 	},
 	"conference_room": {
 		"name": "Conference Room",
@@ -1291,43 +1424,47 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south_west": "recreation_room_balcony",
+			"south_west": {
+				"location": "recreation_room_balcony",
+				"move_description": None
+			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"computer_control_room": {
@@ -1336,40 +1473,43 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south_east": "recreation_room_balcony",
+			"south_east": {
+				"location": "recreation_room_balcony",
+				"move_description": None
+			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
@@ -1377,35 +1517,51 @@ world_1 = {
 	},
 	"main_bridge": {
 		"name": "Main Bridge",
-		"description": "",
+		"description": "\l\l\l",
 		"directions": {
-			"north": "recreation_room_balcony",
+			"north": {
+				"location": "recreation_room_balcony",
+				"move_description": ""
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "locker_room_r",
-			"south": "deck",
-			"south_east": "strategy_room",
+			"east": {
+				"location": "locker_room_r",
+				"move_description": ""
+			},
+			"south": {
+				"location": "deck",
+				"move_description": None
+			},
+			"south_east": {
+				"location": "strategy_room",
+				"move_description": ""
+			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "locker_room_l",
+			"west": {
+				"location": "locker_room_l",
+				"move_description": ""
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"strategy_room": {
@@ -1414,82 +1570,96 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"north_west": "main_bridge",
+			"north_west": {
+				"location": "main_bridge",
+				"move_description": None
+			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"locker_room_l": {
 		"name": "Locker Room (L)",
 		"description": "",
 		"directions": {
-			"north": "officers_office_l",
+			"north": {
+				"location": "officers_office_l",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "main_bridge",
-			"south": "laboratory",
+			"east": {
+				"location": "main_bridge",
+				"move_description": None
+			},
+			"south": {
+				"location": "laboratory",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"officers_quarters_l": {
@@ -1498,85 +1668,96 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "locker_room_l",
+			"south": {
+				"location": "locker_room_l",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"locker_room_r": {
 		"name": "Locker Room (R)",
 		"description": "",
 		"directions": {
-			"north": "officers_quarters_r",
+			"north": {
+				"location": "officers_quarters_r",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "main_bridge",
+			"west": {
+				"location": "main_bridge",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"officers_quarters_r": {
@@ -1585,118 +1766,145 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "locker_room_r",
+			"south": {
+				"location": "locker_room_r",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"laboratory": {
 		"name": "Laboratory",
 		"description": "",
 		"directions": {
-			"north": "locker_room_l",
+			"north": {
+				"location": "locker_room_l",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "deck",
+			"east": {
+				"location": "deck",
+				"move_description": None
+			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"deck": {
 		"name": "Deck",
 		"description": "",
 		"directions": {
-			"north": "main_bridge",
+			"north": {
+				"location": "main_bridge",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "medbay",
-			"south_east": "brig",
-			"south_west": "weapons_storage",
-			"west": "laboratory",
+			"south": {
+				"location": "medbay",
+				"move_description": None
+			},
+			"south_east": {
+				"location": "brig",
+				"move_description": None
+			},
+			"south_west": {
+				"location": "weapons_storage",
+				"move_description": None
+			},
+			"west": {
+				"location": "laboratory",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"brig": {
@@ -1705,43 +1913,47 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"north_west": "deck",
+			"north_west": {
+				"location": "deck",
+				"move_description": None
+			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"weapons_storage": {
@@ -1750,121 +1962,145 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"north_east": "deck",
+			"north_east": {
+				"location": "deck",
+				"move_description": None
+			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"medbay": {
 		"name": "Medbay",
 		"description": "",
 		"directions": {
-			"north": "deck",
+			"north": {
+				"location": "deck",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "primary_generator",
+			"south": {
+				"location": "primary_generator",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"primary_generator": {
 		"name": "Primary Generator Room",
 		"description": "",
 		"directions": {
-			"north": "medbay",
+			"north": {
+				"location": "medbay",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "engine_platform_r",
-			"south": "engineering_room",
+			"east": {
+				"location": "engine_platform_r",
+				"move_description": None
+			},
+			"south": {
+				"location": "engineering_room",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "engine_platform_l",
+			"west": {
+				"location": "engine_platform_l",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"engine_platform_l": {
@@ -1873,40 +2109,47 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"north_west": "turret_maintenance_room_l",
-			"east": "primary_generator",
+			"north_west": {
+				"location": "turret_maintenance_room_l",
+				"move_description": None
+			},
+			"east": {
+				"location": "primary_generator",
+				"move_description": None
+			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"turret_maintenance_room_l": {
@@ -1915,43 +2158,47 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south_east": "engine_l_platform",
+			"south_east": {
+				"location": "engine_l_platform",
+				"move_description": None
+			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"engine_platform_r": {
@@ -1960,40 +2207,47 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"north_east": "turret_maintenance_room_r",
+			"north_east": {
+				"location": "turret_maintenance_room_r",
+				"move_description": None
+			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "primary_generator",
+			"west": {
+				"location": "primary_generator",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"turret_maintenance_room_r": {
@@ -2002,88 +2256,96 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south_west": "engine_platform_r",
+			"south_west": {
+				"location": "engine_platform_r",
+				"move_description": None
+			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"engineering_room": {
 		"name": "Engineering Room",
 		"description": "",
 		"directions": {
-			"north": "primary_generator",
+			"north": {
+				"location": "primary_generator",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"computer_core_chamber": {
@@ -2092,43 +2354,47 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "shield_generator_maintenance_room",
+			"east": {
+				"location": "shield_generator_maintenance_room",
+				"move_description": None
+			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"shield_generator_maintenance_room": {
@@ -2137,37 +2403,47 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "miscellaneous_storage_room",
-			"south": "landing_gear_maintenance_room",
+			"east": {
+				"location": "miscellaneous_storage_room",
+				"move_description": None
+			},
+			"south": {
+				"location": "landing_gear_maintenance_room",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "computer_core_chamber",
+			"west": {
+				"location": "computer_core_chamber",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"miscellaneous_storage_room": {
@@ -2176,160 +2452,194 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "cargo_bay_r_2",
+			"south": {
+				"location": "cargo_bay_r_2",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "shield_generator_maintenance_room",
+			"west": {
+				"location": "shield_generator_maintenance_room",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"landing_gear_maintenance_room": {
 		"name": "Landing Gear Maintenance Room",
 		"description": "The room is where the ship's landing gear is repaired and maintained.\lTools and spare parts are chaotically arranged on workbenches.\lThe Hydraulic systems seem to need adjusting.\lThe sound of clanking metal and hissing air fills the air.",
 		"directions": {
-			"north": "shield_generator_maintenance_room",
+			"north": {
+				"location": "shield_generator_maintenance_room",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "repulser_lift_maintenance_room",
+			"south": {
+				"location": "repulser_lift_maintenance_room",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"repulser_lift_maintenance_room": {
 		"name": "Repulser Lift Maintenance",
 		"description": "The entire Bay is dedicated to the upkeep of the repulser lift system.\lHeavy machinery and maintenance platforms dominate the space.\lSome of the repulsers are in dire need of repair.\lThe room echoes with the whirring of engines and metallic clattering.",
 		"directions": {
-			"north": "landing_gear_maintenance_room",
+			"north": {
+				"location": "landing_gear_maintenance_room",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "cargo_bay_r_1",
+			"east": {
+				"location": "cargo_bay_r_1",
+				"move_description": None
+			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "cargo_bay_l_1",
+			"west": {
+				"location": "cargo_bay_l_1",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"cargo_bay_l_1": {
 		"name": "Cargo Bay (L) [1]",
 		"description": "The left Cargo Bay is a vast storage area for the ship's cargo.\lStacked crates and containers create a maze-like arrangement.\lThe air is filled with a faint scent of metal and plastic.\lLoading docks and robotic arms are positioned along the walls.",
 		"directions": {
-			"north": "cargo_bay_l_2",
+			"north": {
+				"location": "cargo_bay_l_2",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "repulser_lift_maintenance_room",
-			"south": "dry_storage_room",
+			"east": {
+				"location": "repulser_lift_maintenance_room",
+				"move_description": None
+			},
+			"south": {
+				"location": "dry_storage_room",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"cargo_bay_l_2": {
@@ -2338,244 +2648,292 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "cargo_bay_l_1",
+			"south": {
+				"location": "cargo_bay_l_1",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"cargo_bay_r_1": {
 		"name": "Cargo Bay (R) [1]",
 		"description": "The right Cargo Bay mirrors its counterpart on the ship's left side.\lIt is filled with stacked cargo containers awaiting transportation.\lConveyor belts and automated systems facilitate the movement of goods.\lThe flicker of warning lights creates urgency in the atmosphere.",
 		"directions": {
-			"north": "cargo_bay_r_2",
+			"north": {
+				"location": "cargo_bay_r_2",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "cold_storage_room",
+			"south": {
+				"location": "cold_storage_room",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south_west": "spacecraft_storage_room_2",
-			"west": "repulser_lift_maintenance_room",
+			"south_west": {
+				"location": "spacecraft_storage_room_2",
+				"move_description": None
+			},
+			"west": {
+				"location": "repulser_lift_maintenance_room",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"cargo_bay_r_2": {
 		"name": "Cargo Bay (R) [2]",
 		"description": "The right secondary Cargo Bay is an annex to it's counterpart.\lIt continues the pattern of disorder, housing additional supplies.\lThe room is well-lit, casting tall shadows on the messy floor.\lThe bright light makes navigation through the maze-like stacks easier.",
 		"directions": {
-			"north": "miscellaneous_storage_room",
+			"north": {
+				"location": "miscellaneous_storage_room",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "cargo_bay_r_1",
+			"south": {
+				"location": "cargo_bay_r_1",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"dry_storage_room": {
 		"name": "Dry Storage Room",
 		"description": "The room is a secure area for storing non-perishable provisions.\lShelves filled with sealed containers and vacuum-sealed bags lay still.\lThe air is dry, preserving the long shelf life of the stored goods.\lA faint aroma of preserved food lingers in the room.",
 		"directions": {
-			"north": "cargo_bay_l_1",
+			"north": {
+				"location": "cargo_bay_l_1",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"cold_storage_room": {
 		"name": "Cold Storage Room",
 		"description": "The room is a frigid chamber designed to preserve perishable items.\lShelves hold containers of frozen provisions and scientific samples.\lThe frost filled air accentuates the room's purpose.\lSoft white lights cast an ethereal glow on the icy surfaces.",
 		"directions": {
-			"north": "cargo_bay_r_1",
+			"north": {
+				"location": "cargo_bay_r_1",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"spacecraft_storage_room_1": {
 		"name": "Spacecraft Storage [1]",
 		"description": "The Spacecraft Storage chamber houses the smaller space vehicles.\lThe room exudes an atmosphere of controlled chaos.\lSpacecrafts of various sizes sit neatly arranged in designated spaces.\lThe grandeur room's scent hints towards past interstellar explorations.",
 		"directions": {
-			"north": "spacecraft_storage_room_2",
+			"north": {
+				"location": "spacecraft_storage_room_2",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "vehicle_storage_bay",
-			"south": "hyperdrive_control_room",
+			"east": {
+				"location": "vehicle_storage_bay",
+				"move_description": None
+			},
+			"south": {
+				"location": "hyperdrive_control_room",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "airlock_chamber",
-			"up": "secondary_bridge",
+			"west": {
+				"location": "airlock_chamber",
+				"move_description": None
+			},
+			"up": {
+				"location": "secondary_bridge",
+				"move_description": None
+			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"spacecraft_storage_room_2": {
@@ -2584,37 +2942,47 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"north_east": "cargo_bay_r_1",
-			"north_west": "cargo_bay_r_1",
+			"north_east": {
+				"location": "cargo_bay_r_1",
+				"move_description": None
+			},
+			"north_west": {
+				"location": "cargo_bay_r_1",
+				"move_description": None
+			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"south": "spacecraft_storage_room_1",
+			"south": {
+				"location": "spacecraft_storage_room_1",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"airlock_chamber": {
@@ -2623,43 +2991,47 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "spacecraft_storage_room_1",
+			"east": {
+				"location": "spacecraft_storage_room_1",
+				"move_description": None
+			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"vehicle_storage_bay": {
@@ -2668,43 +3040,47 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "spacecraft_storage_room_1",
+			"west": {
+				"location": "spacecraft_storage_room_1",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"engine_mechanics_room_l": {
@@ -2713,43 +3089,47 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "hyperdrive_control_room",
+			"east": {
+				"location": "hyperdrive_control_room",
+				"move_description": None
+			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"engine_mechanics_room_r": {
@@ -2758,118 +3138,145 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "hyperdrive_control_room",
+			"west": {
+				"location": "hyperdrive_control_room",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"hyperdrive_control_room": {
 		"name": "Hyperdrive Control Room",
 		"description": "The room serves as the nerve center for the ship's propulsion system.\lA complex array of controls and monitors are meticulously arranged.\lSoft blue lighting bathes the room in a calming glow.\lEach button press brings the ship closer to traversing space.",
 		"directions": {
-			"north": "spacecraft_storage_room_1",
+			"north": {
+				"location": "spacecraft_storage_room_1",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "engine_mechanics_room_r",
-			"south": "secondary_power_core_chamber",
+			"east": {
+				"location": "engine_mechanics_room_r",
+				"move_description": None
+			},
+			"south": {
+				"location": "secondary_power_core_chamber",
+				"move_description": None
+			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "engine_mechanics_room_l",
+			"west": {
+				"location": "engine_mechanics_room_l",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"secondary_power_core_chamber": {
 		"name": "Secondary Power Core Chamber",
 		"description": "The chamber houses a backup energy source incase the primary one fails.\lThe secondary power core augments the ship's primary power systems.\lWithin this chamber, a towering generator hums with contained power.\lThe rhythmic pulsation of energy creates an almost palpable presence.",
 		"directions": {
-			"north": "engine_mechanics_room_r",
+			"north": {
+				"location": "engine_mechanics_room_r",
+				"move_description": None
+			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "repulser_lift_r",
+			"east": {
+				"location": "repulser_lift_r",
+				"move_description": None
+			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "repulser_lift_l",
+			"west": {
+				"location": "repulser_lift_l",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"repulser_lift_l": {
@@ -2878,43 +3285,47 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"east": "secondary_power_core_chamber",
+			"east": {
+				"location": "secondary_power_core_chamber",
+				"move_description": None
+			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
 	},
 	"repulser_lift_r": {
@@ -2923,43 +3334,47 @@ world_1 = {
 		"directions": {
 			"north": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"north_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_east": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"south_west": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
-			"west": "secondary_power_core_chamber",
+			"west": {
+				"location": "secondary_power_core_chamber",
+				"move_description": None
+			},
 			"up": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			},
 			"down": {
 				"location": None,
-				"move_direction": None
+				"move_description": None
 			}
 		},
 		"objects": [],
+		"placed_objects": [],
 		"entities": [],
-	},
+	}
 }

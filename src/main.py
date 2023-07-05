@@ -37,6 +37,6 @@ class Main:
 	def run(self) -> None:
 		print(f"{WHITE}{BLACK_BG}")
 		self.player.current_world = world_1
-		self.player.current_location = "shield_generator_chamber"
+		self.player.current_location = "crew_quarters_l"
 		GameScreen(self.player)
 		# TitleScreen(self.player, self.dlcs)

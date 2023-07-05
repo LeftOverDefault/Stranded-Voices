@@ -8,7 +8,9 @@ from src.utils.colors import *
 def GameScreen(player):
 	location_name = player.current_world[player.current_location]["name"]
 
-	room_description_line_1, room_description_line_2, room_description_line_3, room_description_line_4 = player.current_world[player.current_location]["description"].split("\l")
+	descriptions = ["", "", "", ""]
+	for i in range(len(player.current_world[player.current_location]["description"].split("\l"))):
+		descriptions[i] = (player.current_world[player.current_location]["description"].split("\l"))[i]
 
 	object_descriptions = ["", "", ""]
 	for i in range(len(player.current_world[player.current_location]["objects"])):
@@ -50,17 +52,17 @@ def GameScreen(player):
 	for i in range(len(player.inventory)):
 		inventory[i] = misc_objects[player.inventory[i]]["name"]
 
-	# os.system("clear")
+	os.system("clear")
 	print(fr"        ┏━━━━━━━━━━━━━━┓        ┏━━━━━━━━━━━━━━┓        ┏━━━━━━━━━━━━━━┓        ┏━━━━━━━━━━━━━━┓                 ")
-	print(fr"┏━━━━━━━┫  {CYAN}[ PUREYA ]{WHITE}  ┣━━━━━━━━┫ {GREEN}[HP] {player.hp}/100{WHITE} ┣━━━━━━━━┫ {RED}[ COMMS ] --{WHITE} ┣━━━━━━━━┫ {BLUE}[ SETTINGS ]{WHITE} ┣━━━[ {YELLOW}TASUKU{WHITE} ]━━━┓")
+	print(fr"┏━━━━━━━┫  {CYAN}[ PUREYA ]{WHITE}  ┣━━━━━━━━┫ {GREEN}[HP] {player.hp}/100{WHITE} ┣━━━━━━━━┫ {RED}[ COMMS ] {player.comms}{WHITE} ┣━━━━━━━━┫ {BLUE}[ SETTINGS ]{WHITE} ┣━━━[ {YELLOW}TASUKU{WHITE} ]━━━┓")
 	print(fr"┃       ┗━━━━━━━━━━━━━━┛        ┗━━━━━━━━━━━━━━┛        ┗━━━━━━━━━━━━━━┛        ┗━━━━━━━━━━━━━━┫                ┃")
 	print(fr"┃ {YELLOW}┏" + (f"━" * (len(location_name) + 2)) + f"┓{WHITE}" + (f" " * (71 - (len(location_name) + 2))) + f"                    ┃                ┃")
 	print(fr"┃ {YELLOW}┃ {location_name} ┃{WHITE}" + (f" " * (71 - (len(location_name) + 2))) + f"                    ┃                ┃")
 	print(fr"┃ {YELLOW}┣" + (f"━" * (len(location_name) + 2)) + f"┛{WHITE}" + (f" " * (71 - (len(location_name) + 2))) + f"                    ┃                ┃")
-	print(fr"┃ {YELLOW}┣╸{WHITE}{room_description_line_1}" + (f" " * (94 - (len(room_description_line_1) + 3))) + f"┃                ┃")
-	print(fr"┃ {YELLOW}┣╸{WHITE}{room_description_line_2}" + (f" " * (94 - (len(room_description_line_2) + 3))) + f"┃                ┃")
-	print(fr"┃ {YELLOW}┣╸{WHITE}{room_description_line_3}" + (f" " * (94 - (len(room_description_line_3) + 3))) + f"┃                ┃")
-	print(fr"┃ {YELLOW}┗╸{WHITE}{room_description_line_4}" + (f" " * (94 - (len(room_description_line_4) + 3))) + f"┃                ┃")
+	print(fr"┃ {YELLOW}┣╸{WHITE}{descriptions[0]}" + (f" " * (94 - (len(descriptions[0]) + 3))) + f"┃                ┃")
+	print(fr"┃ {YELLOW}┣╸{WHITE}{descriptions[1]}" + (f" " * (94 - (len(descriptions[1]) + 3))) + f"┃                ┃")
+	print(fr"┃ {YELLOW}┣╸{WHITE}{descriptions[2]}" + (f" " * (94 - (len(descriptions[2]) + 3))) + f"┃                ┃")
+	print(fr"┃ {YELLOW}┗╸{WHITE}{descriptions[3]}" + (f" " * (94 - (len(descriptions[3]) + 3))) + f"┃                ┃")
 	print(fr"┃   🮥  " + object_descriptions[0] + (f" " * (74 - (len(object_descriptions[0]) + 6))) + f"                    ┃                ┃")
 	print(fr"┃   🮥  " + object_descriptions[1] + (f" " * (74 - (len(object_descriptions[1]) + 6))) + f"                    ┃                ┃")
 	print(fr"┃   🮥  " + object_descriptions[2] + (f" " * (74 - (len(object_descriptions[2]) + 6))) + f"                    ┃                ┃")

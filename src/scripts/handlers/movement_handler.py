@@ -12,7 +12,7 @@ def MovementHandler(player, direction):
 	if player.current_world[player.current_location]["directions"][direction]["location"] == None:
 		player.previous_error = LocationError(player, direction)
 		GameScreen(player)
-	old_location = player.current_world[player.current_location]["name"]
+	old_location = player.current_location
 	player.current_location = player.current_world[player.current_location]["directions"][direction]["location"]
 	MovementScreen(player, direction, old_location)
 	GameScreen(player)

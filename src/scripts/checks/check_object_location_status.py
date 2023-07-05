@@ -1,3 +1,4 @@
+from src.scripts.handlers.communications_handler import CommunicationsHandler
 from src.objects.misc import misc_objects
 
 
@@ -10,7 +11,8 @@ def CheckObjectStatus(player):
             if list(misc_objects.keys())[index] in player.current_world[player.current_location]["placed_objects"]:
                 if player.current_location == misc_objects[object]["correct_location"]:
                     if object == "fuse":
-                        player.comms = True
+                        player.comms_established = True
+                        CommunicationsHandler(player)
                     
                 else:
                     pass
