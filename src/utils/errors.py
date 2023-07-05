@@ -78,6 +78,7 @@ def ObjectNotExistsError(player, object):
 	error = f"There is no object named \"{object}\""
 	return error
 
+# * Error for an Object being Dropped, for when the user input is invalid and so the object does not exist
 def DropObjectError(player, object):
 	error = f"You can't drop nothing."
 	return error

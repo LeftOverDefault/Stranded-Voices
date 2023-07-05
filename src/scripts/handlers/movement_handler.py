@@ -1,7 +1,8 @@
 from src.scenes.game_screens.game_screen import GameScreen
 from src.scenes.transition_screens.movement_screen import MovementScreen
-from src.utils.support import *
 from src.utils.errors import DirectionError, LocationError
+from src.utils.support import *
+
 
 def MovementHandler(player, direction):
 	if direction.lower() not in ["north", "north-east", "north-west", "east", "south", "south-east", "south-west", "west", "up", "down"]:

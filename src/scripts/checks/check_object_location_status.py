@@ -1,5 +1,5 @@
-from src.scripts.handlers.communications_handler import CommunicationsHandler
 from src.objects.misc import misc_objects
+from src.scripts.handlers.communications_handler import CommunicationsHandler
 
 
 def CheckObjectStatus(player):

@@ -1,8 +1,8 @@
 from src.objects.misc import misc_objects
 from src.scenes.game_screens.game_screen import GameScreen
-from src.utils.errors import NotInInventoryError, LocationSpaceError, ObjectNotExistsError
-from src.utils.support import *
 from src.utils.constants import *
+from src.utils.errors import LocationSpaceError, NotInInventoryError, ObjectNotExistsError
+from src.utils.support import *
 
 
 def PlacementHandler(player, object):

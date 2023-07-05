@@ -1,13 +1,13 @@
 import os
 import sys
 
-from src.scenes.ui_screens.dlc_screen import DlcScreen
+from dlc.redemption.world.redemption_world import redemption_world, redemption_world_name
+from dlc.xeon.world.xeon_world import xeon_world, xeon_world_name
 from src.scenes.game_screens.game_screen import GameScreen
+from src.scenes.ui_screens.dlc_screen import DlcScreen
 from src.scenes.ui_screens.help_screen import HelpScreen
 from src.worlds.world_1 import world_1, world_name
 
-from dlc.redemption.world.redemption_world import redemption_world, redemption_world_name
-from dlc.xeon.world.xeon_world import xeon_world, xeon_world_name
 
 def TitleScreen(player, dlcs):
     os.system("clear")

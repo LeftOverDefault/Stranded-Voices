@@ -1,9 +1,10 @@
+import math
 import os
 import time
-import math
 
 from src.objects.misc import misc_objects
 from src.utils.colors import *
+
 
 def MovementScreen(player, direction, old_location):
 	old_location_name = player.current_world[old_location]["name"]

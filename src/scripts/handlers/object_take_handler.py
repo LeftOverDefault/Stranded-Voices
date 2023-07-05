@@ -1,6 +1,6 @@
 from src.objects.misc import misc_objects
 from src.scenes.game_screens.game_screen import GameScreen
-from src.utils.errors import NotInLocationError, InventorySpaceError, ObjectNotExistsError
+from src.utils.errors import InventorySpaceError, NotInLocationError, ObjectNotExistsError
 from src.utils.support import *
 
 

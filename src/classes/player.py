@@ -12,7 +12,7 @@ from src.scripts.handlers.object_drop_handler import DropHandler
 from src.scripts.handlers.object_placement_handler import PlacementHandler
 from src.scripts.handlers.object_remove_handler import RemovalHandler
 from src.scripts.handlers.object_take_handler import TakeHandler
-from src.utils.errors import DirectionError, InteractionError, LocationError, PromptError, PlaceObjectError, RemoveObjectError, TakeObjectError, DropObjectError
+from src.utils.errors import DirectionError, DropObjectError, InteractionError, LocationError, PlaceObjectError, PromptError, RemoveObjectError, TakeObjectError
 
 
 class Player:
@@ -29,7 +29,6 @@ class Player:
         self.dialogue_index = "0"
         self.comms = "--"
         self.comms_established = False
-
 
     def Prompt(self):
         CheckGameStatus(self)
@@ -96,7 +95,6 @@ class Player:
         else:
             self.DeathSequence()
 
-
     def InteractPrompt(self):
         CheckPlayerStatus(self)
         if self.alive != False:
@@ -104,7 +102,6 @@ class Player:
                 self.previous_error = InteractionError(self)
                 GameScreen(self)
             DialogueHandler(self, self.last_interaction)
-
 
     def DeathSequence(self):
         pass
